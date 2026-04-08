@@ -1,0 +1,219 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Abdollahpouri et~al(2020)Abdollahpouri, Mansoury, Burke, and
+  Mobasher}]{abdollahpouri2020popularity}
+Abdollahpouri H, Mansoury M, Burke R, et~al (2020) The connection between
+  popularity bias, calibration, and fairness in recommendation. Proceedings of
+  the ACM Conference on Recommender Systems pp 726--731
+
+\bibitem[{Bao et~al(2023)Bao, Zhang, Zhang, Wang, Feng, and
+  He}]{bao2023tallrec}
+Bao K, Zhang J, Zhang Y, et~al (2023) {TALLRec}: An effective and efficient
+  tuning framework to align large language model with recommendation. In:
+  Proceedings of the ACM Conference on Recommender Systems, pp 1007--1014
+
+\bibitem[{Cai et~al(2024)Cai, Chen, Wang, Bai, Sun, Wu, Zhang, and
+  Wang}]{cai2024paac}
+Cai M, Chen L, Wang Y, et~al (2024) Popularity-aware alignment and contrast for
+  mitigating popularity bias. arXiv preprint arXiv:240520718
+
+\bibitem[{{\c{C}}elik~Ertu{\u{g}}rul and
+  Bitirim(2025)}]{celikertugrul2025jobrec}
+{\c{C}}elik~Ertu{\u{g}}rul D, Bitirim S (2025) Job recommender systems: a
+  systematic literature review, applications, open issues, and challenges.
+  Journal of Big Data 12:140. \doi{10.1186/s40537-025-01173-y}
+
+\bibitem[{Chen et~al(2024)Chen, Chen, Liu, Jiang, and Wang}]{chen2024humans}
+Chen GH, Chen S, Liu Z, et~al (2024) Humans or {LLM}s as the judge? a study on
+  judgement bias. In: Proceedings of the 2024 Conference on Empirical Methods
+  in Natural Language Processing, pp 8301--8327,
+  \doi{10.18653/v1/2024.emnlp-main.474},
+  \urlprefix\url{https://aclanthology.org/2024.emnlp-main.474/}
+
+\bibitem[{Chen et~al(2023)Chen, Dong, Wang, Feng, Wang, and He}]{chen2023bias}
+Chen J, Dong H, Wang X, et~al (2023) Bias and debias in recommender system: A
+  survey and future directions. ACM Transactions on Information Systems
+  41(3):1--39
+
+\bibitem[{Chiang and Lee(2023)}]{chiang2023can}
+Chiang CH, Lee Hy (2023) Can large language models be an alternative to human
+  evaluations? In: Proceedings of the 61st Annual Meeting of the Association
+  for Computational Linguistics (Volume 1: Long Papers), pp 15607--15631,
+  \doi{10.18653/v1/2023.acl-long.870},
+  \urlprefix\url{https://aclanthology.org/2023.acl-long.870/}
+
+\bibitem[{Dai et~al(2023)Dai, Shao, Zhao, Yu, Si, Xu, Sun, Zhang, and
+  Xu}]{dai2023uncovering}
+Dai S, Shao N, Zhao H, et~al (2023) Uncovering {ChatGPT}'s capabilities in
+  recommender systems. In: Proceedings of the ACM Conference on Recommender
+  Systems, pp 1126--1132
+
+\bibitem[{{DeepSeek-AI}(2025)}]{deepseekai2025}
+{DeepSeek-AI} (2025) {DeepSeek-V3} technical report. arXiv preprint
+  arXiv:241219437
+
+\bibitem[{Deldjoo(2024)}]{deldjoo2024understanding}
+Deldjoo Y (2024) Understanding biases in {ChatGPT}-based recommender systems:
+  Provider fairness, temporal stability, and recency. arXiv preprint
+  arXiv:240110545
+
+\bibitem[{Fleiss(1971)}]{fleiss1971kappa}
+Fleiss JL (1971) Measuring nominal scale agreement among many raters.
+  Psychological Bulletin 76(5):378--382
+
+\bibitem[{Ge et~al(2010)Ge, Delgado-Battenfeld, and Jannach}]{ge2010beyond}
+Ge M, Delgado-Battenfeld C, Jannach D (2010) Beyond accuracy: Evaluating
+  recommender systems by coverage and serendipity. In: Proceedings of the ACM
+  Conference on Recommender Systems, pp 257--260
+
+\bibitem[{He et~al(2020)He, Deng, Wang, Li, Zhang, and Wang}]{he2020lightgcn}
+He X, Deng K, Wang X, et~al (2020) {LightGCN}: Simplifying and powering graph
+  convolution network for recommendation. In: Proceedings of the 43rd
+  International ACM SIGIR Conference, pp 639--648
+
+\bibitem[{Herlocker et~al(2004)Herlocker, Konstan, Terveen, and
+  Riedl}]{herlocker2004evaluating}
+Herlocker JL, Konstan JA, Terveen LG, et~al (2004) Evaluating collaborative
+  filtering recommender systems. ACM Transactions on Information Systems
+  22(1):5--53
+
+\bibitem[{Javaheripi and Bubeck(2023)}]{gunasekar2023phi2}
+Javaheripi M, Bubeck S (2023) Phi-2: The surprising power of small language
+  models. Microsoft Research Blog,
+  \urlprefix\url{https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/},
+  official model release description for Microsoft Phi-2
+
+\bibitem[{Kaminskas and Bridge(2016)}]{kaminskas2016diversity}
+Kaminskas M, Bridge D (2016) Diversity, serendipity, novelty, and coverage: A
+  survey and empirical analysis of beyond-accuracy objectives in recommender
+  systems. ACM Transactions on Interactive Intelligent Systems 7(1):2:1--2:42
+
+\bibitem[{Klimashevskaia et~al(2024)Klimashevskaia, Elahi, Jannach, Trattner,
+  and Skj{\ae}rven}]{klimashevskaia2024survey}
+Klimashevskaia A, Elahi M, Jannach D, et~al (2024) A survey on popularity bias
+  in recommender systems. User Modeling and User-Adapted Interaction
+  34:1656--1706
+
+\bibitem[{Koo et~al(2024)Koo, Lee, Raheja, Park, Kim, and
+  Kang}]{koo2024benchmarking}
+Koo R, Lee M, Raheja V, et~al (2024) Benchmarking cognitive biases in large
+  language models as evaluators. arXiv preprint arXiv:230917012
+
+\bibitem[{Liu et~al(2024)Liu, Wu, Zhao, Wang, Zhang, Tian, and
+  Zheng}]{liu2024llmesr}
+Liu Q, Wu X, Zhao X, et~al (2024) {LLM-ESR}: Large language models enhancement
+  for long-tailed sequential recommendation. Advances in Neural Information
+  Processing Systems 37
+
+\bibitem[{Liu et~al(2023)Liu, Iter, Xu, Wang, Xu, and Zhu}]{liu2023geval}
+Liu Y, Iter D, Xu Y, et~al (2023) {G-Eval}: {NLG} evaluation using {GPT-4} with
+  better human alignment. In: Proceedings of the 2023 Conference on Empirical
+  Methods in Natural Language Processing, pp 2511--2522,
+  \doi{10.18653/v1/2023.emnlp-main.153},
+  \urlprefix\url{https://aclanthology.org/2023.emnlp-main.153/}
+
+\bibitem[{Liu et~al(2025)}]{liu2025nontransitivity}
+Liu Y, et~al (2025) Investigating non-transitivity in {LLM}-as-a-judge. arXiv
+  preprint arXiv:250214074
+
+\bibitem[{Mansoury et~al(2020)Mansoury, Abdollahpouri, Pechenizkiy, Mobasher,
+  and Burke}]{mansoury2020feedback}
+Mansoury M, Abdollahpouri H, Pechenizkiy M, et~al (2020) Feedback loop and bias
+  amplification in recommender systems. Proceedings of the ACM Conference on
+  Information and Knowledge Management pp 2145--2148
+
+\bibitem[{McNee et~al(2006)McNee, Riedl, and Konstan}]{mcnee2006being}
+McNee SM, Riedl J, Konstan JA (2006) Being accurate is not enough: How accuracy
+  metrics have hurt recommender systems. In: CHI Extended Abstracts, pp
+  1097--1101
+
+\bibitem[{{MiniMax Team}(2025)}]{minimax2025}
+{MiniMax Team} (2025) {MiniMax-01}: Scaling foundation models with lightning
+  attention. arXiv preprint arXiv:250108313
+
+\bibitem[{Mi{\v{s}}i{\'c} and Dodovi{\'c}(2024)}]{misic2024openmp}
+Mi{\v{s}}i{\'c} M, Dodovi{\'c} M (2024) An assessment of large language models
+  for {OpenMP}-based code parallelization: a user perspective. Journal of Big
+  Data 11:161. \doi{10.1186/s40537-024-01019-z}
+
+\bibitem[{Panickssery et~al(2024)Panickssery, Bowman, and
+  Feng}]{panickssery2024llm}
+Panickssery A, Bowman SR, Feng S (2024) {LLM} evaluators recognize and favor
+  their own generations. arXiv preprint arXiv:240413076
+
+\bibitem[{Pellegrini et~al(2024)}]{recsysarena2024}
+Pellegrini T, et~al (2024) {RecSys Arena}: Pair-wise recommender system
+  evaluation with large language models. arXiv preprint arXiv:241211068
+
+\bibitem[{{Qwen Team}(2024)}]{qwen2024technical}
+{Qwen Team} (2024) Qwen2.5 technical report. arXiv preprint arXiv:241215115
+
+\bibitem[{Shen et~al(2023)Shen, Cheng, Zhou, Hu, Ye et~al}]{shen2023large}
+Shen C, Cheng L, Zhou XY, et~al (2023) Large language models are not yet
+  human-level evaluators for abstractive summarization. Findings of EMNLP
+
+\bibitem[{Shi et~al(2024)Shi, Ma, Liang, Diao, Ma, and
+  Vosoughi}]{raina2025judging}
+Shi L, Ma C, Liang W, et~al (2024) Judging the judges: A systematic study of
+  position bias in {LLM}-as-a-judge. arXiv preprint arXiv:240607791
+  \doi{10.48550/arXiv.2406.07791},
+  \urlprefix\url{https://arxiv.org/abs/2406.07791}
+
+\bibitem[{Spearman(1904)}]{spearman1904proof}
+Spearman C (1904) The proof and measurement of association between two things.
+  American Journal of Psychology 15(1):72--101
+
+\bibitem[{Stureborg et~al(2024)Stureborg, Alikaniotis, and
+  Suhara}]{stureborg2024large}
+Stureborg R, Alikaniotis D, Suhara Y (2024) Large language models are
+  inconsistent and biased evaluators. arXiv preprint arXiv:240501724
+  \doi{10.48550/arXiv.2405.01724},
+  \urlprefix\url{https://arxiv.org/abs/2405.01724}
+
+\bibitem[{Wang et~al(2024)Wang, Li, Chen, Cai, Zhu, Lin, Cao, Kong, Liu, Liu,
+  and Sui}]{wang2024large}
+Wang P, Li L, Chen L, et~al (2024) Large language models are not fair
+  evaluators. arXiv preprint arXiv:230517926
+
+\bibitem[{Wei et~al(2021)Wei, Feng, Chen, Wu, Yi, and He}]{wei2021model}
+Wei T, Feng F, Chen J, et~al (2021) Model-agnostic counterfactual reasoning for
+  eliminating popularity bias in recommender system. In: Proceedings of the ACM
+  SIGKDD Conference, pp 1791--1800
+
+\bibitem[{Wu et~al(2024)Wu, Zheng, Qiu, Wang, Gu, Shen, Qin, Zhu, Zhu, Liu,
+  Xiong, and Chen}]{wu2024survey}
+Wu L, Zheng Z, Qiu Z, et~al (2024) A survey on large language models for
+  recommendation. World Wide Web 27(5):60
+
+\bibitem[{Zhang et~al(2023)Zhang, Zheng, Wang, Yuan, and
+  Chua}]{zhang2023invariant}
+Zhang A, Zheng J, Wang X, et~al (2023) Invariant collaborative filtering to
+  popularity distribution shift. In: Proceedings of the ACM Web Conference, pp
+  1569--1577
+
+\bibitem[{Zheng et~al(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li,
+  Li, Xing, Zhang, Gonzalez, and Stoica}]{zheng2023judging}
+Zheng L, Chiang WL, Sheng Y, et~al (2023) Judging {LLM}-as-a-judge with
+  {MT-Bench} and {Chatbot Arena}. Advances in Neural Information Processing
+  Systems 36.
+  \urlprefix\url{https://proceedings.neurips.cc/paper_files/paper/2023/hash/91f18a1287b398d378ef22505bf41832-Abstract-Datasets_and_Benchmarks.html}
+
+\bibitem[{Zheng et~al(2021)Zheng, Gao, Li, He, Jin, and
+  Li}]{zheng2021disentangling}
+Zheng Y, Gao C, Li X, et~al (2021) Disentangling user interest and conformity
+  for recommendation with causal embedding. In: Proceedings of the Web
+  Conference, pp 2980--2991
+
+\bibitem[{Zhou et~al(2010)Zhou, Kuscsik, Liu, Medo, Wakeling, and
+  Zhang}]{zhou2010solving}
+Zhou T, Kuscsik Z, Liu JG, et~al (2010) Solving the apparent diversity-accuracy
+  dilemma of recommender systems. Proceedings of the National Academy of
+  Sciences 107(10):4511--4515
+
+\end{thebibliography}

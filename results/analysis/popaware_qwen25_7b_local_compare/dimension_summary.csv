@@ -1,0 +1,3 @@
+dimension,n_records,baseline_consistency_rate,candidate_consistency_rate,delta_consistency_rate,baseline_alignment_to_ndcg,candidate_alignment_to_ndcg,delta_alignment_to_ndcg,baseline_alignment_to_coverage,candidate_alignment_to_coverage,delta_alignment_to_coverage,baseline_alignment_to_tail_exposure,candidate_alignment_to_tail_exposure,delta_alignment_to_tail_exposure,baseline_alignment_to_gini,candidate_alignment_to_gini,delta_alignment_to_gini,baseline_alignment_to_arp,candidate_alignment_to_arp,delta_alignment_to_arp
+balanced,10,0.276,0.5940000000000001,0.318,0.7,0.6,-0.1,0.6,0.8,0.2,0.7,0.8,0.1,0.6,0.9,0.3,0.7,0.9,0.2
+diversity,10,0.24800000000000005,0.506,0.258,0.2,0.4,0.2,0.6,0.5,-0.1,0.5,0.4,-0.1,0.5,0.6,0.1,0.4,0.5,0.1

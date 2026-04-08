@@ -1,0 +1,21 @@
+{
+  "num_scanned_runs": 100,
+  "num_target_matches": 34,
+  "target_models": [
+    "dcd",
+    "dice",
+    "invcf",
+    "pdcl_b05",
+    "apdcl_bmax10",
+    "paac"
+  ],
+  "target_datasets": [
+    "yelp",
+    "amazon"
+  ],
+  "target_seeds": [
+    42,
+    43,
+    44
+  ]
+}

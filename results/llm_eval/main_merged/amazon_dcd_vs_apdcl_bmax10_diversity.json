@@ -1,0 +1,519 @@
+{
+  "dataset": "amazon",
+  "model_a": "dcd",
+  "model_b": "apdcl_bmax10",
+  "dimension": "diversity",
+  "n_trials": 50,
+  "prefer_a": 0,
+  "prefer_b": 0,
+  "tie": 50,
+  "inconsistent": 0,
+  "consistency_rate": 1.0,
+  "llm_winner": "tie",
+  "ndcg_winner": "apdcl_bmax10",
+  "coverage_winner": "dcd",
+  "alignment_to_ndcg": 0.5,
+  "alignment_to_coverage": 0.5,
+  "per_trial": [
+    {
+      "user_id": 59180,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1481.41797631979,
+      "latency_reverse_ms": 1657.2510972619057
+    },
+    {
+      "user_id": 259000,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1714.2080515623093,
+      "latency_reverse_ms": 1729.9242615699768
+    },
+    {
+      "user_id": 554481,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1683.8948838412762,
+      "latency_reverse_ms": 1701.0638527572155
+    },
+    {
+      "user_id": 107348,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1712.265744805336,
+      "latency_reverse_ms": 1698.7039595842361
+    },
+    {
+      "user_id": 377944,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1721.5792685747147,
+      "latency_reverse_ms": 1579.985685646534
+    },
+    {
+      "user_id": 439457,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1648.4593972563744,
+      "latency_reverse_ms": 1653.461929410696
+    },
+    {
+      "user_id": 144916,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1655.9524424374104,
+      "latency_reverse_ms": 1673.1094792485237
+    },
+    {
+      "user_id": 69166,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1788.9543697237968,
+      "latency_reverse_ms": 1812.2694678604603
+    },
+    {
+      "user_id": 104457,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1663.2308661937714,
+      "latency_reverse_ms": 1667.6936261355877
+    },
+    {
+      "user_id": 549149,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1673.2961311936378,
+      "latency_reverse_ms": 1669.154491275549
+    },
+    {
+      "user_id": 422300,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1666.9348329305649,
+      "latency_reverse_ms": 1684.007853269577
+    },
+    {
+      "user_id": 392952,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1669.2318432033062,
+      "latency_reverse_ms": 1651.0143019258976
+    },
+    {
+      "user_id": 440358,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1653.3989943563938,
+      "latency_reverse_ms": 1683.3768524229527
+    },
+    {
+      "user_id": 597120,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1630.2313469350338,
+      "latency_reverse_ms": 1645.6037387251854
+    },
+    {
+      "user_id": 516457,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1653.713721781969,
+      "latency_reverse_ms": 1678.906250745058
+    },
+    {
+      "user_id": 46903,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1617.5793297588825,
+      "latency_reverse_ms": 1634.8857507109642
+    },
+    {
+      "user_id": 441710,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1644.8597013950348,
+      "latency_reverse_ms": 1661.8231609463692
+    },
+    {
+      "user_id": 350849,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1664.0979647636414,
+      "latency_reverse_ms": 1682.0870824158192
+    },
+    {
+      "user_id": 565629,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1711.2244665622711,
+      "latency_reverse_ms": 1704.145759344101
+    },
+    {
+      "user_id": 64236,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1622.1208572387695,
+      "latency_reverse_ms": 1646.0857838392258
+    },
+    {
+      "user_id": 25111,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1663.7238673865795,
+      "latency_reverse_ms": 1671.1031906306744
+    },
+    {
+      "user_id": 462165,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1678.7944622337818,
+      "latency_reverse_ms": 1670.5731712281704
+    },
+    {
+      "user_id": 144310,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1659.4803482294083,
+      "latency_reverse_ms": 1673.9165298640728
+    },
+    {
+      "user_id": 76986,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1658.783532679081,
+      "latency_reverse_ms": 1680.3487353026867
+    },
+    {
+      "user_id": 27401,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1654.9693532288074,
+      "latency_reverse_ms": 1666.9447645545006
+    },
+    {
+      "user_id": 206208,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1653.0071645975113,
+      "latency_reverse_ms": 1671.6114021837711
+    },
+    {
+      "user_id": 51420,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1664.8235879838467,
+      "latency_reverse_ms": 1677.0228296518326
+    },
+    {
+      "user_id": 603363,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1632.053468376398,
+      "latency_reverse_ms": 1637.4039389193058
+    },
+    {
+      "user_id": 29474,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1655.9955552220345,
+      "latency_reverse_ms": 1667.034551501274
+    },
+    {
+      "user_id": 167036,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1702.8631530702114,
+      "latency_reverse_ms": 1737.0145991444588
+    },
+    {
+      "user_id": 590353,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1619.6699999272823,
+      "latency_reverse_ms": 1628.744825720787
+    },
+    {
+      "user_id": 408468,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1667.132593691349,
+      "latency_reverse_ms": 1675.4813641309738
+    },
+    {
+      "user_id": 164673,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1673.475455492735,
+      "latency_reverse_ms": 1681.2867894768715
+    },
+    {
+      "user_id": 448480,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1724.759016185999,
+      "latency_reverse_ms": 1750.3294758498669
+    },
+    {
+      "user_id": 162119,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1556.1540611088276,
+      "latency_reverse_ms": 1260.223314166069
+    },
+    {
+      "user_id": 479366,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1243.8195422291756,
+      "latency_reverse_ms": 1265.4544599354267
+    },
+    {
+      "user_id": 130605,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1636.2900659441948,
+      "latency_reverse_ms": 1661.4528447389603
+    },
+    {
+      "user_id": 58938,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1701.7349489033222,
+      "latency_reverse_ms": 1721.957340836525
+    },
+    {
+      "user_id": 429729,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1704.5033648610115,
+      "latency_reverse_ms": 1734.7699999809265
+    },
+    {
+      "user_id": 109574,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1737.9403337836266,
+      "latency_reverse_ms": 1725.1060120761395
+    },
+    {
+      "user_id": 577329,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1625.0044330954552,
+      "latency_reverse_ms": 1628.559399396181
+    },
+    {
+      "user_id": 236721,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1651.5939570963383,
+      "latency_reverse_ms": 1670.8555594086647
+    },
+    {
+      "user_id": 581327,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1625.1753456890583,
+      "latency_reverse_ms": 1622.0736913383007
+    },
+    {
+      "user_id": 416654,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1726.5708707273006,
+      "latency_reverse_ms": 1756.168693304062
+    },
+    {
+      "user_id": 506509,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1653.1920544803143,
+      "latency_reverse_ms": 1668.289441615343
+    },
+    {
+      "user_id": 64126,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1688.7962073087692,
+      "latency_reverse_ms": 1676.9030466675758
+    },
+    {
+      "user_id": 505657,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1684.4194419682026,
+      "latency_reverse_ms": 1709.5123752951622
+    },
+    {
+      "user_id": 34666,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1700.5724236369133,
+      "latency_reverse_ms": 1718.05077791214
+    },
+    {
+      "user_id": 393514,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1650.3076441586018,
+      "latency_reverse_ms": 1667.9777652025223
+    },
+    {
+      "user_id": 421029,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 1669.7832345962524,
+      "latency_reverse_ms": 1670.973364263773
+    }
+  ]
+}

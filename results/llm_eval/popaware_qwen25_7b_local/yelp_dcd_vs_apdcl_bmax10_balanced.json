@@ -1,0 +1,1227 @@
+{
+  "dataset": "yelp",
+  "model_a": "dcd",
+  "model_b": "apdcl_bmax10",
+  "dimension": "balanced",
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "n_trials": 50,
+  "prefer_a": 3,
+  "prefer_b": 2,
+  "tie": 7,
+  "inconsistent": 38,
+  "consistency_rate": 0.24,
+  "llm_winner": "dcd",
+  "ndcg_winner": "apdcl_bmax10",
+  "coverage_winner": "dcd",
+  "tail_exposure_winner": "dcd",
+  "gini_winner": "dcd",
+  "arp_winner": "dcd",
+  "alignment_to_ndcg": 0.0,
+  "alignment_to_coverage": 1.0,
+  "alignment_to_tail_exposure": 1.0,
+  "alignment_to_gini": 1.0,
+  "alignment_to_arp": 1.0,
+  "per_trial": [
+    {
+      "user_id": 19308,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 318.7413290143013,
+      "latency_reverse_ms": 305.56895211338997,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 15,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 15/20; Tail: 2/20"
+    },
+    {
+      "user_id": 24594,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 328.1957358121872,
+      "latency_reverse_ms": 326.5218287706375,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20"
+    },
+    {
+      "user_id": 18930,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "dcd",
+      "latency_forward_ms": 340.2140364050865,
+      "latency_reverse_ms": 340.45279771089554,
+      "list_a_popularity": {
+        "head": 8,
+        "mid": 7,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 10,
+        "mid": 6,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 8/20; Mid: 7/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 10/20; Mid: 6/20; Tail: 4/20"
+    },
+    {
+      "user_id": 18392,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": true,
+      "effective_preference": "apdcl_bmax10",
+      "latency_forward_ms": 322.02256470918655,
+      "latency_reverse_ms": 322.16624915599823,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 14,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 6,
+        "mid": 13,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 14/20; Tail: 1/20",
+      "list_b_popularity_summary": "Head: 6/20; Mid: 13/20; Tail: 1/20"
+    },
+    {
+      "user_id": 81116,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 322.55979999899864,
+      "latency_reverse_ms": 323.0767399072647,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20"
+    },
+    {
+      "user_id": 78602,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 304.6824671328068,
+      "latency_reverse_ms": 304.8543930053711,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 11,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 11/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20"
+    },
+    {
+      "user_id": 2600,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 325.80649480223656,
+      "latency_reverse_ms": 324.10579547286034,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 11,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 10,
+        "tail": 7,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 11/20; Tail: 6/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 10/20; Tail: 7/20"
+    },
+    {
+      "user_id": 33987,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 343.2055190205574,
+      "latency_reverse_ms": 343.34711357951164,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20"
+    },
+    {
+      "user_id": 47111,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 322.59833440184593,
+      "latency_reverse_ms": 322.56777584552765,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 6,
+        "mid": 11,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 6/20; Mid: 11/20; Tail: 3/20"
+    },
+    {
+      "user_id": 362,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 341.91426634788513,
+      "latency_reverse_ms": 341.99294447898865,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 6,
+        "mid": 11,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 6/20; Mid: 11/20; Tail: 3/20"
+    },
+    {
+      "user_id": 92790,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 323.4221301972866,
+      "latency_reverse_ms": 321.15184515714645,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 16,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 16/20; Tail: 2/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20"
+    },
+    {
+      "user_id": 90313,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 325.80991089344025,
+      "latency_reverse_ms": 326.14410668611526,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 10,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 6,
+        "mid": 10,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 10/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 6/20; Mid: 10/20; Tail: 4/20"
+    },
+    {
+      "user_id": 46092,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 357.16576129198074,
+      "latency_reverse_ms": 358.0019026994705,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 7,
+        "mid": 10,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 7/20; Mid: 10/20; Tail: 3/20"
+    },
+    {
+      "user_id": 1779,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 304.3556734919548,
+      "latency_reverse_ms": 303.7348911166191,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 13,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 13/20; Tail: 4/20"
+    },
+    {
+      "user_id": 49896,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 322.23979011178017,
+      "latency_reverse_ms": 322.0610320568085,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 12,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 12/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20"
+    },
+    {
+      "user_id": 79676,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 321.3586360216141,
+      "latency_reverse_ms": 321.8730315566063,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 13,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 13/20; Tail: 2/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20"
+    },
+    {
+      "user_id": 58992,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 342.2565422952175,
+      "latency_reverse_ms": 341.14033728837967,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20"
+    },
+    {
+      "user_id": 27182,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 340.0470241904259,
+      "latency_reverse_ms": 340.20911902189255,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 12,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 12,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 12/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20"
+    },
+    {
+      "user_id": 37335,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 341.091800481081,
+      "latency_reverse_ms": 340.6999297440052,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 15,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 15/20; Tail: 3/20"
+    },
+    {
+      "user_id": 66818,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 341.2024863064289,
+      "latency_reverse_ms": 340.33696725964546,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 9,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 8,
+        "mid": 6,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 9/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 8/20; Mid: 6/20; Tail: 6/20"
+    },
+    {
+      "user_id": 83855,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 289.54997658729553,
+      "latency_reverse_ms": 289.09507393836975,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 16,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 15,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 16/20; Tail: 1/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 15/20; Tail: 2/20"
+    },
+    {
+      "user_id": 68812,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 322.34422862529755,
+      "latency_reverse_ms": 322.24421948194504,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20"
+    },
+    {
+      "user_id": 17415,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 340.0804363191128,
+      "latency_reverse_ms": 340.7430872321129,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 12,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 12/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20"
+    },
+    {
+      "user_id": 93796,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 303.0926063656807,
+      "latency_reverse_ms": 304.1839972138405,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 11,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 7,
+        "mid": 11,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 11/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 7/20; Mid: 11/20; Tail: 2/20"
+    },
+    {
+      "user_id": 45970,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 320.0443387031555,
+      "latency_reverse_ms": 320.78080624341965,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 11,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 7,
+        "mid": 10,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 11/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 7/20; Mid: 10/20; Tail: 3/20"
+    },
+    {
+      "user_id": 13763,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 325.76359063386917,
+      "latency_reverse_ms": 325.0107429921627,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 17,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 17,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 17/20; Tail: 1/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 17/20; Tail: 1/20"
+    },
+    {
+      "user_id": 9482,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 306.6095747053623,
+      "latency_reverse_ms": 306.123785674572,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 12,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 12,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 12/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 12/20; Tail: 5/20"
+    },
+    {
+      "user_id": 15173,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 344.16115656495094,
+      "latency_reverse_ms": 340.46854823827744,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 18,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 15,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 18/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 15/20; Tail: 0/20"
+    },
+    {
+      "user_id": 78002,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 341.35788679122925,
+      "latency_reverse_ms": 342.5741642713547,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 12,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 12,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 12/20; Tail: 6/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 12/20; Tail: 6/20"
+    },
+    {
+      "user_id": 47816,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 290.30047729611397,
+      "latency_reverse_ms": 289.99317809939384,
+      "list_a_popularity": {
+        "head": 7,
+        "mid": 6,
+        "tail": 7,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 7,
+        "mid": 7,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 7/20; Mid: 6/20; Tail: 7/20",
+      "list_b_popularity_summary": "Head: 7/20; Mid: 7/20; Tail: 6/20"
+    },
+    {
+      "user_id": 23620,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 321.2072439491749,
+      "latency_reverse_ms": 320.9599107503891,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 12,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 13,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 12/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 13/20; Tail: 4/20"
+    },
+    {
+      "user_id": 83363,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 320.26271522045135,
+      "latency_reverse_ms": 321.25431299209595,
+      "list_a_popularity": {
+        "head": 7,
+        "mid": 10,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 8,
+        "mid": 10,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 7/20; Mid: 10/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 8/20; Mid: 10/20; Tail: 2/20"
+    },
+    {
+      "user_id": 61591,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 320.70740684866905,
+      "latency_reverse_ms": 321.2914578616619,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 14,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 14/20; Tail: 2/20"
+    },
+    {
+      "user_id": 51956,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 340.9865014255047,
+      "latency_reverse_ms": 340.22149071097374,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 12,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 12/20; Tail: 4/20"
+    },
+    {
+      "user_id": 34176,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 355.747252702713,
+      "latency_reverse_ms": 356.3585579395294,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 13,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 13/20; Tail: 2/20"
+    },
+    {
+      "user_id": 88044,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 343.8737355172634,
+      "latency_reverse_ms": 343.19449588656425,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 13,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 12,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 13/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 12/20; Tail: 5/20"
+    },
+    {
+      "user_id": 797,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 304.4480234384537,
+      "latency_reverse_ms": 305.2341230213642,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 12,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 13,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 12/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 13/20; Tail: 5/20"
+    },
+    {
+      "user_id": 23067,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 321.26931101083755,
+      "latency_reverse_ms": 321.3757462799549,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 9,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 7,
+        "tail": 8,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 9/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 7/20; Tail: 8/20"
+    },
+    {
+      "user_id": 94832,
+      "fwd_verdict": "A",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 342.20244362950325,
+      "latency_reverse_ms": 365.5543439090252,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 12,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 7,
+        "mid": 12,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 12/20; Tail: 2/20",
+      "list_b_popularity_summary": "Head: 7/20; Mid: 12/20; Tail: 1/20"
+    },
+    {
+      "user_id": 52301,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 321.0093565285206,
+      "latency_reverse_ms": 320.34309580922127,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 13,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 12,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 13/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 12/20; Tail: 6/20"
+    },
+    {
+      "user_id": 50442,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "dcd",
+      "latency_forward_ms": 303.05085703730583,
+      "latency_reverse_ms": 303.62265557050705,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 15,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 14,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 15/20; Tail: 1/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 14/20; Tail: 1/20"
+    },
+    {
+      "user_id": 4565,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 322.30034470558167,
+      "latency_reverse_ms": 322.15847820043564,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 11,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 11,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 11/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 11/20; Tail: 5/20"
+    },
+    {
+      "user_id": 92688,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": true,
+      "effective_preference": "apdcl_bmax10",
+      "latency_forward_ms": 323.06284457445145,
+      "latency_reverse_ms": 323.54310899972916,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 14,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 15,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 15/20; Tail: 3/20"
+    },
+    {
+      "user_id": 88855,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 319.95048001408577,
+      "latency_reverse_ms": 320.29904797673225,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 11,
+        "tail": 6,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 13,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 11/20; Tail: 6/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 13/20; Tail: 5/20"
+    },
+    {
+      "user_id": 73732,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 307.01735243201256,
+      "latency_reverse_ms": 306.43485113978386,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 8,
+        "tail": 8,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 10,
+        "tail": 7,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 8/20; Tail: 8/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 10/20; Tail: 7/20"
+    },
+    {
+      "user_id": 97264,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 323.0733200907707,
+      "latency_reverse_ms": 322.6721100509167,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 15,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 14,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 15/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 14/20; Tail: 4/20"
+    },
+    {
+      "user_id": 20211,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 305.41354045271873,
+      "latency_reverse_ms": 306.09646439552307,
+      "list_a_popularity": {
+        "head": 5,
+        "mid": 10,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 3,
+        "mid": 13,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 5/20; Mid: 10/20; Tail: 5/20",
+      "list_b_popularity_summary": "Head: 3/20; Mid: 13/20; Tail: 4/20"
+    },
+    {
+      "user_id": 64669,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "dcd",
+      "latency_forward_ms": 341.163095086813,
+      "latency_reverse_ms": 341.7943939566612,
+      "list_a_popularity": {
+        "head": 3,
+        "mid": 15,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 4,
+        "mid": 15,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 3/20; Mid: 15/20; Tail: 2/20",
+      "list_b_popularity_summary": "Head: 4/20; Mid: 15/20; Tail: 1/20"
+    },
+    {
+      "user_id": 5457,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 306.08855187892914,
+      "latency_reverse_ms": 306.07178434729576,
+      "list_a_popularity": {
+        "head": 2,
+        "mid": 14,
+        "tail": 4,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 2,
+        "mid": 13,
+        "tail": 5,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 2/20; Mid: 14/20; Tail: 4/20",
+      "list_b_popularity_summary": "Head: 2/20; Mid: 13/20; Tail: 5/20"
+    },
+    {
+      "user_id": 74193,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 319.76019963622093,
+      "latency_reverse_ms": 320.23540884256363,
+      "list_a_popularity": {
+        "head": 4,
+        "mid": 13,
+        "tail": 3,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 5,
+        "mid": 13,
+        "tail": 2,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+      "list_b_popularity_summary": "Head: 5/20; Mid: 13/20; Tail: 2/20"
+    }
+  ]
+}

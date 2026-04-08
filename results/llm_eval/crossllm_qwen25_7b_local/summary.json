@@ -1,0 +1,26 @@
+{
+  "model_name": "Qwen2.5-7B-Instruct(local)",
+  "datasets": [
+    "amazon",
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced",
+    "diversity"
+  ],
+  "n_users": 50,
+  "seed": 42,
+  "elapsed_seconds": null,
+  "num_records": 20,
+  "llm_winner_counts": {
+    "apdcl_bmax10": 4,
+    "dcd": 1,
+    "dice": 5,
+    "invcf": 3,
+    "tie": 6,
+    "pdcl_b05": 1
+  },
+  "avg_consistency_rate": 0.262,
+  "avg_alignment_to_ndcg": 0.45,
+  "avg_alignment_to_coverage": 0.6
+}

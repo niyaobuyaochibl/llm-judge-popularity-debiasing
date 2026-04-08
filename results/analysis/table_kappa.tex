@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Pairwise Cohen's $\kappa$ between LLM judges on winner labels.}
+\label{tab:kappa}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lcccccc}
+\hline
+ & Phi-2 & Qwen2.5-7B & Qwen-Plus & DeepSeek-V3 & MiniMax-M2.7 & Kimi-K2 \\
+\hline
+Phi-2 & 1.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 \\
+Qwen2.5-7B & 0.000 & 1.000 & 0.429 & 0.518 & 0.345 & 0.522 \\
+Qwen-Plus & 0.000 & 0.429 & 1.000 & 0.565 & 0.392 & 0.632 \\
+DeepSeek-V3 & 0.000 & 0.518 & 0.565 & 1.000 & 0.604 & 0.931 \\
+MiniMax-M2.7 & 0.000 & 0.345 & 0.392 & 0.604 & 1.000 & 0.545 \\
+Kimi-K2 & 0.000 & 0.522 & 0.632 & 0.931 & 0.545 & 1.000 \\
+\hline
+\end{tabular}%
+}
+\end{table}

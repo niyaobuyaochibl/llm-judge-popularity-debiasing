@@ -1,0 +1,9 @@
+{
+  "num_records": 10,
+  "llm_winner_counts": {
+    "tie": 10
+  },
+  "avg_consistency_rate": 0.914,
+  "avg_alignment_to_ndcg": 0.5,
+  "avg_alignment_to_coverage": 0.5
+}

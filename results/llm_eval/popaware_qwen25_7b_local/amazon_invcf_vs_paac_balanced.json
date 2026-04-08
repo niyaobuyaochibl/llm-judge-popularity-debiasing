@@ -1,0 +1,1227 @@
+{
+  "dataset": "amazon",
+  "model_a": "invcf",
+  "model_b": "paac",
+  "dimension": "balanced",
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "n_trials": 50,
+  "prefer_a": 4,
+  "prefer_b": 1,
+  "tie": 41,
+  "inconsistent": 4,
+  "consistency_rate": 0.92,
+  "llm_winner": "invcf",
+  "ndcg_winner": "paac",
+  "coverage_winner": "invcf",
+  "tail_exposure_winner": "invcf",
+  "gini_winner": "invcf",
+  "arp_winner": "invcf",
+  "alignment_to_ndcg": 0.0,
+  "alignment_to_coverage": 1.0,
+  "alignment_to_tail_exposure": 1.0,
+  "alignment_to_gini": 1.0,
+  "alignment_to_arp": 1.0,
+  "per_trial": [
+    {
+      "user_id": 59180,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 247.3810613155365,
+      "latency_reverse_ms": 235.66623777151108,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 259000,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 258.5403732955456,
+      "latency_reverse_ms": 258.50148126482964,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 554481,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 261.47666200995445,
+      "latency_reverse_ms": 258.1181041896343,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 107348,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 258.58017802238464,
+      "latency_reverse_ms": 256.7399889230728,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 377944,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 238.01102489233017,
+      "latency_reverse_ms": 237.8769926726818,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 439457,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 216.4221815764904,
+      "latency_reverse_ms": 217.71737933158875,
+      "list_a_popularity": {
+        "head": 19,
+        "mid": 1,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 19/20; Mid: 1/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 144916,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 239.4610457122326,
+      "latency_reverse_ms": 235.7555702328682,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 69166,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 271.44981175661087,
+      "latency_reverse_ms": 272.2613476216793,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 104457,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 237.89625242352486,
+      "latency_reverse_ms": 238.26612532138824,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 549149,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 233.5430234670639,
+      "latency_reverse_ms": 233.56455191969872,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 422300,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 236.38751730322838,
+      "latency_reverse_ms": 241.60974472761154,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 392952,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 237.99199610948563,
+      "latency_reverse_ms": 236.85642331838608,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 440358,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "invcf",
+      "latency_forward_ms": 212.35527843236923,
+      "latency_reverse_ms": 211.5747332572937,
+      "list_a_popularity": {
+        "head": 6,
+        "mid": 14,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 6/20; Mid: 14/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 597120,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "invcf",
+      "latency_forward_ms": 241.20261520147324,
+      "latency_reverse_ms": 236.21604591608047,
+      "list_a_popularity": {
+        "head": 19,
+        "mid": 1,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 19/20; Mid: 1/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 516457,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 237.5841736793518,
+      "latency_reverse_ms": 237.479530274868,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 46903,
+      "fwd_verdict": "B",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": true,
+      "effective_preference": "paac",
+      "latency_forward_ms": 215.23799747228622,
+      "latency_reverse_ms": 215.70909768342972,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 19,
+        "mid": 1,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 19/20; Mid: 1/20; Tail: 0/20"
+    },
+    {
+      "user_id": 441710,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 217.39830449223518,
+      "latency_reverse_ms": 216.47639572620392,
+      "list_a_popularity": {
+        "head": 18,
+        "mid": 2,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 18/20; Mid: 2/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 350849,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 234.00403186678886,
+      "latency_reverse_ms": 234.26596820354462,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 565629,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 231.65837302803993,
+      "latency_reverse_ms": 232.21611976623535,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 64236,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 216.5403999388218,
+      "latency_reverse_ms": 216.4280079305172,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 25111,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 236.41424998641014,
+      "latency_reverse_ms": 236.15749180316925,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 462165,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 218.96348148584366,
+      "latency_reverse_ms": 217.44943410158157,
+      "list_a_popularity": {
+        "head": 13,
+        "mid": 7,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 14,
+        "mid": 6,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 13/20; Mid: 7/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 14/20; Mid: 6/20; Tail: 0/20"
+    },
+    {
+      "user_id": 144310,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 256.0082823038101,
+      "latency_reverse_ms": 256.6809207201004,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 76986,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 236.8631735444069,
+      "latency_reverse_ms": 237.99673467874527,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 27401,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 217.80413761734962,
+      "latency_reverse_ms": 217.45969355106354,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 206208,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 218.68134289979935,
+      "latency_reverse_ms": 215.59003740549088,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 51420,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 233.59112069010735,
+      "latency_reverse_ms": 234.8448634147644,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 603363,
+      "fwd_verdict": "A",
+      "rev_verdict": "A",
+      "rev_mapped": "B",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 235.18609255552292,
+      "latency_reverse_ms": 235.16307771205902,
+      "list_a_popularity": {
+        "head": 18,
+        "mid": 2,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 18/20; Mid: 2/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 29474,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 238.31411823630333,
+      "latency_reverse_ms": 237.7219758927822,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 167036,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 237.88756132125854,
+      "latency_reverse_ms": 236.69025674462318,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 590353,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 234.0821959078312,
+      "latency_reverse_ms": 233.81739109754562,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 408468,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 216.95870533585548,
+      "latency_reverse_ms": 218.09564903378487,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 164673,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 235.39354652166367,
+      "latency_reverse_ms": 235.47521606087685,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 448480,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "invcf",
+      "latency_forward_ms": 235.3629358112812,
+      "latency_reverse_ms": 236.34498938918114,
+      "list_a_popularity": {
+        "head": 19,
+        "mid": 1,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 19/20; Mid: 1/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 162119,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 238.4992055594921,
+      "latency_reverse_ms": 238.4447567164898,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 479366,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 241.70783907175064,
+      "latency_reverse_ms": 240.505900233984,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 130605,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 216.1524035036564,
+      "latency_reverse_ms": 216.3630686700344,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 58938,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 256.7858211696148,
+      "latency_reverse_ms": 255.75696304440498,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 429729,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 241.8721280992031,
+      "latency_reverse_ms": 237.18494176864624,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 109574,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 263.07786256074905,
+      "latency_reverse_ms": 257.3243975639343,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 577329,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 236.47437617182732,
+      "latency_reverse_ms": 236.52850091457367,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 236721,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 235.97116023302078,
+      "latency_reverse_ms": 235.98045855760574,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 581327,
+      "fwd_verdict": "A",
+      "rev_verdict": "B",
+      "rev_mapped": "A",
+      "consistent": true,
+      "effective_preference": "invcf",
+      "latency_forward_ms": 198.59514385461807,
+      "latency_reverse_ms": 194.6154646575451,
+      "list_a_popularity": {
+        "head": 9,
+        "mid": 11,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 9/20; Mid: 11/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 416654,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 257.7635869383812,
+      "latency_reverse_ms": 257.7058635652065,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 506509,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 237.7486750483513,
+      "latency_reverse_ms": 238.2548525929451,
+      "list_a_popularity": {
+        "head": 16,
+        "mid": 4,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 19,
+        "mid": 1,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 16/20; Mid: 4/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 19/20; Mid: 1/20; Tail: 0/20"
+    },
+    {
+      "user_id": 64126,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 216.25322476029396,
+      "latency_reverse_ms": 216.50445461273193,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 505657,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 269.6143053472042,
+      "latency_reverse_ms": 269.6225270628929,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 34666,
+      "fwd_verdict": "A",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": false,
+      "effective_preference": "INCONSISTENT",
+      "latency_forward_ms": 218.13059970736504,
+      "latency_reverse_ms": 250.1664087176323,
+      "list_a_popularity": {
+        "head": 19,
+        "mid": 0,
+        "tail": 1,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 19/20; Mid: 0/20; Tail: 1/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 393514,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 235.80067604780197,
+      "latency_reverse_ms": 235.93057692050934,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    },
+    {
+      "user_id": 421029,
+      "fwd_verdict": "TIE",
+      "rev_verdict": "TIE",
+      "rev_mapped": "TIE",
+      "consistent": true,
+      "effective_preference": "TIE",
+      "latency_forward_ms": 235.6775440275669,
+      "latency_reverse_ms": 237.3143620789051,
+      "list_a_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_b_popularity": {
+        "head": 20,
+        "mid": 0,
+        "tail": 0,
+        "unknown": 0
+      },
+      "list_a_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20",
+      "list_b_popularity_summary": "Head: 20/20; Mid: 0/20; Tail: 0/20"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+dataset,model_a,model_b,dimension,delta_consistency_rate,delta_alignment_to_coverage,delta_alignment_to_tail_exposure
+amazon,dice,apdcl_bmax10,balanced,0.5,1.0,1.0
+yelp,dcd,dice,diversity,-0.09999999999999999,1.0,1.0
+yelp,pdcl_b05,apdcl_bmax10,balanced,0.2,0.5,0.5
+yelp,dcd,dice,balanced,0.13999999999999999,0.5,0.5
+yelp,dcd,apdcl_bmax10,balanced,0.0,0.5,0.5
+yelp,dice,apdcl_bmax10,diversity,-0.01999999999999999,0.5,0.5
+amazon,dcd,apdcl_bmax10,diversity,0.84,0.0,0.0
+amazon,dice,apdcl_bmax10,diversity,0.6799999999999999,0.0,0.0
+amazon,dcd,dice,balanced,0.5800000000000001,0.0,0.0
+amazon,invcf,paac,balanced,0.54,0.0,0.0

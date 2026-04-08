@@ -1,0 +1,9 @@
+dataset,dimension,alignment_to_ndcg,alignment_to_coverage,consistency_rate
+amazon,balanced,0.5,0.5,1.0
+amazon,diversity,0.5,0.5,1.0
+amazon,novelty,0.5,0.5,0.976
+amazon,relevance,0.4,0.4,0.524
+yelp,balanced,0.5,0.5,0.9400000000000001
+yelp,diversity,0.5,0.5,1.0
+yelp,novelty,0.5,0.5,0.9359999999999999
+yelp,relevance,0.5,0.5,0.944

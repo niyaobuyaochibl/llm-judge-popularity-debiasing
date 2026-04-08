@@ -1,0 +1,21 @@
+{
+  "package_name": "human_sanity_check_v2",
+  "n_base_tasks_expected": 40,
+  "n_base_tasks_answered": 40,
+  "n_duplicate_base_tasks_expected": 10,
+  "fleiss_kappa": 0.005223711106064047,
+  "duplicate_consistency": {
+    "per_annotator": {
+      "annotator_01": 1.0,
+      "annotator_02": 0.7,
+      "annotator_03": 0.6
+    },
+    "overall_mean": 0.7666666666666666
+  },
+  "task_level_alignment": {
+    "ndcg_mean": 0.1125,
+    "coverage_mean": 0.1125
+  },
+  "judge_agreement": null,
+  "issues": []
+}

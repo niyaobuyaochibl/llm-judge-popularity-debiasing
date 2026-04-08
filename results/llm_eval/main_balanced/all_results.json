@@ -1,0 +1,5192 @@
+[
+  {
+    "dataset": "yelp",
+    "model_a": "dcd",
+    "model_b": "dice",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 1,
+    "prefer_b": 1,
+    "tie": 0,
+    "inconsistent": 48,
+    "consistency_rate": 0.04,
+    "llm_winner": "tie",
+    "ndcg_winner": "dcd",
+    "coverage_winner": "dcd",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 3038.1754003465176,
+        "latency_reverse_ms": 2572.0495097339153
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2261.4197246730328,
+        "latency_reverse_ms": 1968.6749540269375
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2086.243249475956,
+        "latency_reverse_ms": 2086.583338677883
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2105.291821062565,
+        "latency_reverse_ms": 2098.615162074566
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "B",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": true,
+        "effective_preference": "dice",
+        "latency_forward_ms": 2091.7060784995556,
+        "latency_reverse_ms": 2096.9730094075203
+      },
+      {
+        "user_id": 78602,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1992.1250343322754,
+        "latency_reverse_ms": 1998.1112517416477
+      },
+      {
+        "user_id": 2600,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2093.240588903427,
+        "latency_reverse_ms": 2094.342663884163
+      },
+      {
+        "user_id": 33987,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1973.1456711888313,
+        "latency_reverse_ms": 1982.7067479491234
+      },
+      {
+        "user_id": 47111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2104.3122969567776,
+        "latency_reverse_ms": 2102.0220182836056
+      },
+      {
+        "user_id": 362,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2155.1262475550175,
+        "latency_reverse_ms": 2134.9710039794445
+      },
+      {
+        "user_id": 92790,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2127.7444660663605,
+        "latency_reverse_ms": 2108.7724044919014
+      },
+      {
+        "user_id": 90313,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1985.1605333387852,
+        "latency_reverse_ms": 1994.7803989052773
+      },
+      {
+        "user_id": 46092,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2194.3372413516045,
+        "latency_reverse_ms": 2168.0264957249165
+      },
+      {
+        "user_id": 1779,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1979.2200066149235,
+        "latency_reverse_ms": 1983.8311411440372
+      },
+      {
+        "user_id": 49896,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.9812664091587,
+        "latency_reverse_ms": 2078.175574541092
+      },
+      {
+        "user_id": 79676,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1994.8646016418934,
+        "latency_reverse_ms": 2006.406243890524
+      },
+      {
+        "user_id": 58992,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2097.312208265066,
+        "latency_reverse_ms": 2096.1509570479393
+      },
+      {
+        "user_id": 27182,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2100.4668548703194,
+        "latency_reverse_ms": 2108.645424246788
+      },
+      {
+        "user_id": 37335,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2099.3216298520565,
+        "latency_reverse_ms": 2105.739276856184
+      },
+      {
+        "user_id": 66818,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2151.158597320318,
+        "latency_reverse_ms": 2130.817174911499
+      },
+      {
+        "user_id": 83855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1886.2833008170128,
+        "latency_reverse_ms": 1894.519280642271
+      },
+      {
+        "user_id": 68812,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2103.154718875885,
+        "latency_reverse_ms": 2101.6355641186237
+      },
+      {
+        "user_id": 17415,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2128.881435841322,
+        "latency_reverse_ms": 2117.8541854023933
+      },
+      {
+        "user_id": 93796,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1987.528532743454,
+        "latency_reverse_ms": 1982.5760312378407
+      },
+      {
+        "user_id": 45970,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2093.0767320096493,
+        "latency_reverse_ms": 2083.0284021794796
+      },
+      {
+        "user_id": 13763,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1982.5448878109455,
+        "latency_reverse_ms": 1977.9453054070473
+      },
+      {
+        "user_id": 9482,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1992.3112280666828,
+        "latency_reverse_ms": 1992.0346327126026
+      },
+      {
+        "user_id": 15173,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2080.0037421286106,
+        "latency_reverse_ms": 2086.5035988390446
+      },
+      {
+        "user_id": 78002,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1990.191351622343,
+        "latency_reverse_ms": 1987.3524904251099
+      },
+      {
+        "user_id": 47816,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1975.1523807644844,
+        "latency_reverse_ms": 1979.7980785369873
+      },
+      {
+        "user_id": 23620,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2011.1245438456535,
+        "latency_reverse_ms": 2003.3791959285736
+      },
+      {
+        "user_id": 83363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.0083360671997,
+        "latency_reverse_ms": 2088.5119177401066
+      },
+      {
+        "user_id": 61591,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.974743425846,
+        "latency_reverse_ms": 2090.7467640936375
+      },
+      {
+        "user_id": 51956,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2134.2488154768944,
+        "latency_reverse_ms": 2112.3629435896873
+      },
+      {
+        "user_id": 34176,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dcd",
+        "latency_forward_ms": 2140.954751521349,
+        "latency_reverse_ms": 2143.3008946478367
+      },
+      {
+        "user_id": 88044,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2144.9591480195522,
+        "latency_reverse_ms": 2121.121346950531
+      },
+      {
+        "user_id": 797,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1973.7448543310165,
+        "latency_reverse_ms": 1992.6386065781116
+      },
+      {
+        "user_id": 23067,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2081.8517841398716,
+        "latency_reverse_ms": 2098.3109436929226
+      },
+      {
+        "user_id": 94832,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2148.3629271388054,
+        "latency_reverse_ms": 2146.027594804764
+      },
+      {
+        "user_id": 52301,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2087.4198637902737,
+        "latency_reverse_ms": 2072.6784467697144
+      },
+      {
+        "user_id": 50442,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1988.6954985558987,
+        "latency_reverse_ms": 1980.2934303879738
+      },
+      {
+        "user_id": 4565,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2010.1375207304955,
+        "latency_reverse_ms": 2008.1325061619282
+      },
+      {
+        "user_id": 92688,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2100.453693419695,
+        "latency_reverse_ms": 2085.8134776353836
+      },
+      {
+        "user_id": 88855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2003.0589140951633,
+        "latency_reverse_ms": 1995.4596050083637
+      },
+      {
+        "user_id": 73732,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1977.7353331446648,
+        "latency_reverse_ms": 1984.0694181621075
+      },
+      {
+        "user_id": 97264,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2101.536314934492,
+        "latency_reverse_ms": 2087.3033814132214
+      },
+      {
+        "user_id": 20211,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2004.0878802537918,
+        "latency_reverse_ms": 2003.5770311951637
+      },
+      {
+        "user_id": 64669,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2090.1093930006027,
+        "latency_reverse_ms": 2082.8534066677094
+      },
+      {
+        "user_id": 5457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1991.0631254315376,
+        "latency_reverse_ms": 1985.9978333115578
+      },
+      {
+        "user_id": 74193,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2081.6326551139355,
+        "latency_reverse_ms": 1701.8531672656536
+      }
+    ]
+  },
+  {
+    "dataset": "yelp",
+    "model_a": "dcd",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 1,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 49,
+    "consistency_rate": 0.02,
+    "llm_winner": "dcd",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "dcd",
+    "alignment_to_ndcg": 0.0,
+    "alignment_to_coverage": 1.0,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1974.9541990458965,
+        "latency_reverse_ms": 1976.2170910835266
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1982.5209267437458,
+        "latency_reverse_ms": 1982.748530805111
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2107.89505392313,
+        "latency_reverse_ms": 2108.15604403615
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2082.6832838356495,
+        "latency_reverse_ms": 2105.882868170738
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2082.559384405613,
+        "latency_reverse_ms": 2086.860418319702
+      },
+      {
+        "user_id": 78602,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1960.8707390725613,
+        "latency_reverse_ms": 1969.768948853016
+      },
+      {
+        "user_id": 2600,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2096.0160940885544,
+        "latency_reverse_ms": 2085.029501467943
+      },
+      {
+        "user_id": 33987,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1997.0234856009483,
+        "latency_reverse_ms": 1994.785338640213
+      },
+      {
+        "user_id": 47111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2076.468411833048,
+        "latency_reverse_ms": 2103.1609922647476
+      },
+      {
+        "user_id": 362,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2125.47742202878,
+        "latency_reverse_ms": 2130.4878666996956
+      },
+      {
+        "user_id": 92790,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2061.5968629717827,
+        "latency_reverse_ms": 2076.81642845273
+      },
+      {
+        "user_id": 90313,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1979.2111776769161,
+        "latency_reverse_ms": 1991.9230118393898
+      },
+      {
+        "user_id": 46092,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2165.0871485471725,
+        "latency_reverse_ms": 2150.471355766058
+      },
+      {
+        "user_id": 1779,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1968.351524323225,
+        "latency_reverse_ms": 1985.577829182148
+      },
+      {
+        "user_id": 49896,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2080.0400115549564,
+        "latency_reverse_ms": 2085.0141160190105
+      },
+      {
+        "user_id": 79676,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2078.0189372599125,
+        "latency_reverse_ms": 2080.5006213486195
+      },
+      {
+        "user_id": 58992,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2079.3364234268665,
+        "latency_reverse_ms": 2092.091266065836
+      },
+      {
+        "user_id": 27182,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2104.6719551086426,
+        "latency_reverse_ms": 2100.4253029823303
+      },
+      {
+        "user_id": 37335,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2145.5057114362717,
+        "latency_reverse_ms": 2130.8810375630856
+      },
+      {
+        "user_id": 66818,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2104.22670096159,
+        "latency_reverse_ms": 2093.2961963117123
+      },
+      {
+        "user_id": 83855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1892.9594680666924,
+        "latency_reverse_ms": 1902.3620449006557
+      },
+      {
+        "user_id": 68812,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dcd",
+        "latency_forward_ms": 2101.8597297370434,
+        "latency_reverse_ms": 2104.4607758522034
+      },
+      {
+        "user_id": 17415,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2116.3954734802246,
+        "latency_reverse_ms": 2115.17346277833
+      },
+      {
+        "user_id": 93796,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1950.4088945686817,
+        "latency_reverse_ms": 1961.9744792580605
+      },
+      {
+        "user_id": 45970,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2005.3616613149643,
+        "latency_reverse_ms": 1999.741893261671
+      },
+      {
+        "user_id": 13763,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1976.9323877990246,
+        "latency_reverse_ms": 1968.4224091470242
+      },
+      {
+        "user_id": 9482,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1992.7222840487957,
+        "latency_reverse_ms": 1992.6291964948177
+      },
+      {
+        "user_id": 15173,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2069.7761923074722,
+        "latency_reverse_ms": 2047.1321865916252
+      },
+      {
+        "user_id": 78002,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2053.7497214972973,
+        "latency_reverse_ms": 2042.765375226736
+      },
+      {
+        "user_id": 47816,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1914.9927236139774,
+        "latency_reverse_ms": 1916.6896753013134
+      },
+      {
+        "user_id": 23620,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2065.6819567084312,
+        "latency_reverse_ms": 2060.8921460807323
+      },
+      {
+        "user_id": 83363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2060.757327824831,
+        "latency_reverse_ms": 2058.3613477647305
+      },
+      {
+        "user_id": 61591,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2070.7459524273872,
+        "latency_reverse_ms": 2066.7530968785286
+      },
+      {
+        "user_id": 51956,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2101.305205374956,
+        "latency_reverse_ms": 2099.636971950531
+      },
+      {
+        "user_id": 34176,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2169.9541360139847,
+        "latency_reverse_ms": 2168.6049327254295
+      },
+      {
+        "user_id": 88044,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2132.628098130226,
+        "latency_reverse_ms": 2126.0880790650845
+      },
+      {
+        "user_id": 797,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1973.418541252613,
+        "latency_reverse_ms": 1980.458553880453
+      },
+      {
+        "user_id": 23067,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.739290177822,
+        "latency_reverse_ms": 2077.301971614361
+      },
+      {
+        "user_id": 94832,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2141.9514566659927,
+        "latency_reverse_ms": 2115.8997043967247
+      },
+      {
+        "user_id": 52301,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2000.5073435604572,
+        "latency_reverse_ms": 1996.64506316185
+      },
+      {
+        "user_id": 50442,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1965.3060287237167,
+        "latency_reverse_ms": 1969.0925441682339
+      },
+      {
+        "user_id": 4565,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2074.2236636579037,
+        "latency_reverse_ms": 2063.7585930526257
+      },
+      {
+        "user_id": 92688,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2078.0916959047318,
+        "latency_reverse_ms": 2075.832836329937
+      },
+      {
+        "user_id": 88855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1989.967379719019,
+        "latency_reverse_ms": 1984.345007687807
+      },
+      {
+        "user_id": 73732,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1979.6340130269527,
+        "latency_reverse_ms": 1996.370442211628
+      },
+      {
+        "user_id": 97264,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2074.9187283217907,
+        "latency_reverse_ms": 2073.0309821665287
+      },
+      {
+        "user_id": 20211,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1992.4413338303566,
+        "latency_reverse_ms": 1989.7143319249153
+      },
+      {
+        "user_id": 64669,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2115.6922206282616,
+        "latency_reverse_ms": 2109.8675802350044
+      },
+      {
+        "user_id": 5457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1983.964778482914,
+        "latency_reverse_ms": 1971.7222563922405
+      },
+      {
+        "user_id": 74193,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1730.8367006480694,
+        "latency_reverse_ms": 1771.7831917107105
+      }
+    ]
+  },
+  {
+    "dataset": "yelp",
+    "model_a": "dice",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 2,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 48,
+    "consistency_rate": 0.04,
+    "llm_winner": "dice",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "apdcl_bmax10",
+    "alignment_to_ndcg": 0.0,
+    "alignment_to_coverage": 0.0,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2085.2864496409893,
+        "latency_reverse_ms": 2089.504685252905
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1985.568568110466,
+        "latency_reverse_ms": 1969.2484959959984
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2112.245138734579,
+        "latency_reverse_ms": 2084.83824506402
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2093.097433447838,
+        "latency_reverse_ms": 2086.9085751473904
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2097.767349332571,
+        "latency_reverse_ms": 2092.3256054520607
+      },
+      {
+        "user_id": 78602,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1996.1646161973476,
+        "latency_reverse_ms": 1994.7234466671944
+      },
+      {
+        "user_id": 2600,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2089.622162282467,
+        "latency_reverse_ms": 2100.824039429426
+      },
+      {
+        "user_id": 33987,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2000.6203316152096,
+        "latency_reverse_ms": 1992.5468042492867
+      },
+      {
+        "user_id": 47111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2105.4546162486076,
+        "latency_reverse_ms": 2092.7236936986446
+      },
+      {
+        "user_id": 362,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2116.2150874733925,
+        "latency_reverse_ms": 2106.705881655216
+      },
+      {
+        "user_id": 92790,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dice",
+        "latency_forward_ms": 2137.0623521506786,
+        "latency_reverse_ms": 2129.3556168675423
+      },
+      {
+        "user_id": 90313,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1999.603234231472,
+        "latency_reverse_ms": 1987.690445035696
+      },
+      {
+        "user_id": 46092,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2191.336501389742,
+        "latency_reverse_ms": 2195.9306858479977
+      },
+      {
+        "user_id": 1779,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1988.30371722579,
+        "latency_reverse_ms": 2005.0905495882034
+      },
+      {
+        "user_id": 49896,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2094.208486378193,
+        "latency_reverse_ms": 2094.762623310089
+      },
+      {
+        "user_id": 79676,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1998.993307352066,
+        "latency_reverse_ms": 2009.6033178269863
+      },
+      {
+        "user_id": 58992,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2088.1266929209232,
+        "latency_reverse_ms": 2071.2254904210567
+      },
+      {
+        "user_id": 27182,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2144.4576494395733,
+        "latency_reverse_ms": 2133.528906852007
+      },
+      {
+        "user_id": 37335,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2102.453988045454,
+        "latency_reverse_ms": 2092.9178446531296
+      },
+      {
+        "user_id": 66818,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2154.0021933615208,
+        "latency_reverse_ms": 2143.9397893846035
+      },
+      {
+        "user_id": 83855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1921.7135645449162,
+        "latency_reverse_ms": 1920.051734894514
+      },
+      {
+        "user_id": 68812,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2088.5914638638496,
+        "latency_reverse_ms": 2097.030807286501
+      },
+      {
+        "user_id": 17415,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2089.0010185539722,
+        "latency_reverse_ms": 2084.8598815500736
+      },
+      {
+        "user_id": 93796,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1993.840530514717,
+        "latency_reverse_ms": 1976.080484688282
+      },
+      {
+        "user_id": 45970,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2075.726579874754,
+        "latency_reverse_ms": 2058.226343244314
+      },
+      {
+        "user_id": 13763,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2014.282487332821,
+        "latency_reverse_ms": 1995.5958314239979
+      },
+      {
+        "user_id": 9482,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1999.4709640741348,
+        "latency_reverse_ms": 1987.7562038600445
+      },
+      {
+        "user_id": 15173,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2096.2460972368717,
+        "latency_reverse_ms": 2067.3047713935375
+      },
+      {
+        "user_id": 78002,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1992.9216653108597,
+        "latency_reverse_ms": 1993.7184564769268
+      },
+      {
+        "user_id": 47816,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1985.0393272936344,
+        "latency_reverse_ms": 2001.7344243824482
+      },
+      {
+        "user_id": 23620,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2002.227183431387,
+        "latency_reverse_ms": 2006.3876435160637
+      },
+      {
+        "user_id": 83363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2113.0811385810375,
+        "latency_reverse_ms": 2087.6271426677704
+      },
+      {
+        "user_id": 61591,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dice",
+        "latency_forward_ms": 2088.834833353758,
+        "latency_reverse_ms": 2083.0945633351803
+      },
+      {
+        "user_id": 51956,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2151.541255414486,
+        "latency_reverse_ms": 2146.3270857930183
+      },
+      {
+        "user_id": 34176,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2137.6106441020966,
+        "latency_reverse_ms": 2132.589351385832
+      },
+      {
+        "user_id": 88044,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2139.4152976572514,
+        "latency_reverse_ms": 2148.182153701782
+      },
+      {
+        "user_id": 797,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1972.4897295236588,
+        "latency_reverse_ms": 1978.3877953886986
+      },
+      {
+        "user_id": 23067,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2101.360961794853,
+        "latency_reverse_ms": 2083.621881902218
+      },
+      {
+        "user_id": 94832,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2080.6078873574734,
+        "latency_reverse_ms": 2098.214838653803
+      },
+      {
+        "user_id": 52301,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2087.9497081041336,
+        "latency_reverse_ms": 2080.0106041133404
+      },
+      {
+        "user_id": 50442,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1994.8964603245258,
+        "latency_reverse_ms": 1995.2379614114761
+      },
+      {
+        "user_id": 4565,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2072.089422494173,
+        "latency_reverse_ms": 2064.3310546875
+      },
+      {
+        "user_id": 92688,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2127.9248371720314,
+        "latency_reverse_ms": 2118.790790438652
+      },
+      {
+        "user_id": 88855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2009.853195399046,
+        "latency_reverse_ms": 2007.3491856455803
+      },
+      {
+        "user_id": 73732,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1978.6226116120815,
+        "latency_reverse_ms": 1983.477357774973
+      },
+      {
+        "user_id": 97264,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2130.44348731637,
+        "latency_reverse_ms": 2132.3245353996754
+      },
+      {
+        "user_id": 20211,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1984.3441173434258,
+        "latency_reverse_ms": 1991.466872394085
+      },
+      {
+        "user_id": 64669,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2087.6305513083935,
+        "latency_reverse_ms": 2080.1024734973907
+      },
+      {
+        "user_id": 5457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1486.513614654541,
+        "latency_reverse_ms": 1906.4638875424862
+      },
+      {
+        "user_id": 74193,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2071.1145475506783,
+        "latency_reverse_ms": 1902.3349769413471
+      }
+    ]
+  },
+  {
+    "dataset": "yelp",
+    "model_a": "pdcl_b05",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 1,
+    "tie": 0,
+    "inconsistent": 49,
+    "consistency_rate": 0.02,
+    "llm_winner": "apdcl_bmax10",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "apdcl_bmax10",
+    "alignment_to_ndcg": 1.0,
+    "alignment_to_coverage": 1.0,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1975.5030125379562,
+        "latency_reverse_ms": 1975.8446402847767
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1983.3431467413902,
+        "latency_reverse_ms": 1995.1332062482834
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2076.993815600872,
+        "latency_reverse_ms": 2067.767024040222
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2070.061646401882,
+        "latency_reverse_ms": 2081.694148480892
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "B",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": true,
+        "effective_preference": "apdcl_bmax10",
+        "latency_forward_ms": 2121.796265244484,
+        "latency_reverse_ms": 2100.7115468382835
+      },
+      {
+        "user_id": 78602,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1959.168054163456,
+        "latency_reverse_ms": 1963.7711830437183
+      },
+      {
+        "user_id": 2600,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2117.381539195776,
+        "latency_reverse_ms": 2110.738929361105
+      },
+      {
+        "user_id": 33987,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1998.9332966506481,
+        "latency_reverse_ms": 2000.0312477350235
+      },
+      {
+        "user_id": 47111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1990.7337874174118,
+        "latency_reverse_ms": 2000.81205368042
+      },
+      {
+        "user_id": 362,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2104.496654123068,
+        "latency_reverse_ms": 2101.3253778219223
+      },
+      {
+        "user_id": 92790,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2096.4321568608284,
+        "latency_reverse_ms": 2074.688922613859
+      },
+      {
+        "user_id": 90313,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2002.0561404526234,
+        "latency_reverse_ms": 1996.504619717598
+      },
+      {
+        "user_id": 46092,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2169.5916429162025,
+        "latency_reverse_ms": 2145.7713954150677
+      },
+      {
+        "user_id": 1779,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1985.552653670311,
+        "latency_reverse_ms": 2005.210679024458
+      },
+      {
+        "user_id": 49896,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2093.847770243883,
+        "latency_reverse_ms": 2105.3716465830803
+      },
+      {
+        "user_id": 79676,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1995.1577931642532,
+        "latency_reverse_ms": 2006.5274871885777
+      },
+      {
+        "user_id": 58992,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2074.830122292042,
+        "latency_reverse_ms": 2069.605614989996
+      },
+      {
+        "user_id": 27182,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2146.4595571160316,
+        "latency_reverse_ms": 2143.848232924938
+      },
+      {
+        "user_id": 37335,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2120.275769382715,
+        "latency_reverse_ms": 2128.7582479417324
+      },
+      {
+        "user_id": 66818,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2129.917938262224,
+        "latency_reverse_ms": 2112.337090075016
+      },
+      {
+        "user_id": 83855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1897.8829197585583,
+        "latency_reverse_ms": 1898.6216597259045
+      },
+      {
+        "user_id": 68812,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2130.4994113743305,
+        "latency_reverse_ms": 2117.8587824106216
+      },
+      {
+        "user_id": 17415,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2100.8569933474064,
+        "latency_reverse_ms": 2100.815001875162
+      },
+      {
+        "user_id": 93796,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1979.9304865300655,
+        "latency_reverse_ms": 1988.3090443909168
+      },
+      {
+        "user_id": 45970,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2087.845679372549,
+        "latency_reverse_ms": 2087.4458700418472
+      },
+      {
+        "user_id": 13763,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2010.7898488640785,
+        "latency_reverse_ms": 1995.8883002400398
+      },
+      {
+        "user_id": 9482,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1973.2018932700157,
+        "latency_reverse_ms": 1974.388875067234
+      },
+      {
+        "user_id": 15173,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2079.654473811388,
+        "latency_reverse_ms": 2086.715552955866
+      },
+      {
+        "user_id": 78002,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2079.882774502039,
+        "latency_reverse_ms": 2065.3433836996555
+      },
+      {
+        "user_id": 47816,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1894.5704400539398,
+        "latency_reverse_ms": 1906.3644036650658
+      },
+      {
+        "user_id": 23620,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2081.0313522815704,
+        "latency_reverse_ms": 2075.9681537747383
+      },
+      {
+        "user_id": 83363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2089.742612093687,
+        "latency_reverse_ms": 2077.825866639614
+      },
+      {
+        "user_id": 61591,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2006.6228061914444,
+        "latency_reverse_ms": 2012.669987976551
+      },
+      {
+        "user_id": 51956,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2136.2094655632973,
+        "latency_reverse_ms": 2132.244076579809
+      },
+      {
+        "user_id": 34176,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2157.8184626996517,
+        "latency_reverse_ms": 2152.143880724907
+      },
+      {
+        "user_id": 88044,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2132.377177476883,
+        "latency_reverse_ms": 2121.3144920766354
+      },
+      {
+        "user_id": 797,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1967.1028181910515,
+        "latency_reverse_ms": 1968.8962288200855
+      },
+      {
+        "user_id": 23067,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2001.3415850698948,
+        "latency_reverse_ms": 1997.1640445291996
+      },
+      {
+        "user_id": 94832,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.8484486341476,
+        "latency_reverse_ms": 2079.7754265367985
+      },
+      {
+        "user_id": 52301,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2092.630386352539,
+        "latency_reverse_ms": 2078.004900366068
+      },
+      {
+        "user_id": 50442,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1973.4056666493416,
+        "latency_reverse_ms": 1969.448547810316
+      },
+      {
+        "user_id": 4565,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1993.590135127306,
+        "latency_reverse_ms": 1993.7252551317215
+      },
+      {
+        "user_id": 92688,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2124.799147248268,
+        "latency_reverse_ms": 2121.8005008995533
+      },
+      {
+        "user_id": 88855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1981.9388315081596,
+        "latency_reverse_ms": 1970.3194573521614
+      },
+      {
+        "user_id": 73732,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2000.1541785895824,
+        "latency_reverse_ms": 2004.663374274969
+      },
+      {
+        "user_id": 97264,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2124.315682798624,
+        "latency_reverse_ms": 2110.0301444530487
+      },
+      {
+        "user_id": 20211,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1999.5878525078297,
+        "latency_reverse_ms": 1992.9123036563396
+      },
+      {
+        "user_id": 64669,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1637.7503089606762,
+        "latency_reverse_ms": 1979.790210723877
+      },
+      {
+        "user_id": 5457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1967.9630063474178,
+        "latency_reverse_ms": 1956.9812454283237
+      },
+      {
+        "user_id": 74193,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2054.132331162691,
+        "latency_reverse_ms": 1848.9318415522575
+      }
+    ]
+  },
+  {
+    "dataset": "yelp",
+    "model_a": "invcf",
+    "model_b": "paac",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 1,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 49,
+    "consistency_rate": 0.02,
+    "llm_winner": "invcf",
+    "ndcg_winner": "paac",
+    "coverage_winner": "invcf",
+    "alignment_to_ndcg": 0.0,
+    "alignment_to_coverage": 1.0,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2082.902278751135,
+        "latency_reverse_ms": 2071.5661868453026
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1990.6701855361462,
+        "latency_reverse_ms": 1991.6154965758324
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2074.3045806884766,
+        "latency_reverse_ms": 2091.5976092219353
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2084.20767262578,
+        "latency_reverse_ms": 2086.743976920843
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2158.853229135275,
+        "latency_reverse_ms": 2163.438607007265
+      },
+      {
+        "user_id": 78602,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "invcf",
+        "latency_forward_ms": 2084.5582745969296,
+        "latency_reverse_ms": 2085.347205400467
+      },
+      {
+        "user_id": 2600,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2141.6562162339687,
+        "latency_reverse_ms": 2131.1382465064526
+      },
+      {
+        "user_id": 33987,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1993.524145334959,
+        "latency_reverse_ms": 1988.738864660263
+      },
+      {
+        "user_id": 47111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2093.9031541347504,
+        "latency_reverse_ms": 2092.9768681526184
+      },
+      {
+        "user_id": 362,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2081.304244697094,
+        "latency_reverse_ms": 2079.1217423975468
+      },
+      {
+        "user_id": 92790,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2132.3013566434383,
+        "latency_reverse_ms": 2116.8753691017628
+      },
+      {
+        "user_id": 90313,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1990.0868199765682,
+        "latency_reverse_ms": 2000.1365803182125
+      },
+      {
+        "user_id": 46092,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2175.386756658554,
+        "latency_reverse_ms": 2152.182746678591
+      },
+      {
+        "user_id": 1779,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2004.2852014303207,
+        "latency_reverse_ms": 2009.3670897185802
+      },
+      {
+        "user_id": 49896,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2089.96769040823,
+        "latency_reverse_ms": 2080.8527804911137
+      },
+      {
+        "user_id": 79676,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2015.245109796524,
+        "latency_reverse_ms": 2036.8645936250687
+      },
+      {
+        "user_id": 58992,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2081.735335290432,
+        "latency_reverse_ms": 2069.9287727475166
+      },
+      {
+        "user_id": 27182,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2156.7182764410973,
+        "latency_reverse_ms": 2165.060393512249
+      },
+      {
+        "user_id": 37335,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2106.543689966202,
+        "latency_reverse_ms": 2095.329787582159
+      },
+      {
+        "user_id": 66818,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2145.4984210431576,
+        "latency_reverse_ms": 2103.311814367771
+      },
+      {
+        "user_id": 83855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1907.1787185966969,
+        "latency_reverse_ms": 1928.6270439624786
+      },
+      {
+        "user_id": 68812,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2078.753475099802,
+        "latency_reverse_ms": 2071.4863128960133
+      },
+      {
+        "user_id": 17415,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2091.2355221807957,
+        "latency_reverse_ms": 2081.030774861574
+      },
+      {
+        "user_id": 93796,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1998.8031350076199,
+        "latency_reverse_ms": 2012.4037936329842
+      },
+      {
+        "user_id": 45970,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2086.0874950885773,
+        "latency_reverse_ms": 2082.139737904072
+      },
+      {
+        "user_id": 13763,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1984.1175004839897,
+        "latency_reverse_ms": 1987.7774380147457
+      },
+      {
+        "user_id": 9482,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2065.0919787585735,
+        "latency_reverse_ms": 2075.1129426062107
+      },
+      {
+        "user_id": 15173,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2094.535030424595,
+        "latency_reverse_ms": 2089.044187217951
+      },
+      {
+        "user_id": 78002,
+        "fwd_verdict": "B",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2119.1302686929703,
+        "latency_reverse_ms": 2110.7817962765694
+      },
+      {
+        "user_id": 47816,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1989.153005182743,
+        "latency_reverse_ms": 2000.0278018414974
+      },
+      {
+        "user_id": 23620,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1999.8709186911583,
+        "latency_reverse_ms": 1997.7534636855125
+      },
+      {
+        "user_id": 83363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2094.815418124199,
+        "latency_reverse_ms": 2102.05689817667
+      },
+      {
+        "user_id": 61591,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2085.997387766838,
+        "latency_reverse_ms": 2069.1442415118217
+      },
+      {
+        "user_id": 51956,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2168.9111553132534,
+        "latency_reverse_ms": 2165.723390877247
+      },
+      {
+        "user_id": 34176,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2125.77310949564,
+        "latency_reverse_ms": 2130.329232662916
+      },
+      {
+        "user_id": 88044,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2123.623315244913,
+        "latency_reverse_ms": 2106.890484690666
+      },
+      {
+        "user_id": 797,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1962.3500034213066,
+        "latency_reverse_ms": 1976.7818860709667
+      },
+      {
+        "user_id": 23067,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2071.217358112335,
+        "latency_reverse_ms": 2083.9234590530396
+      },
+      {
+        "user_id": 94832,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2095.071781426668,
+        "latency_reverse_ms": 2099.545482546091
+      },
+      {
+        "user_id": 52301,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2082.2618640959263,
+        "latency_reverse_ms": 2064.271792769432
+      },
+      {
+        "user_id": 50442,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1984.8455376923084,
+        "latency_reverse_ms": 1986.7823347449303
+      },
+      {
+        "user_id": 4565,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2067.2543197870255,
+        "latency_reverse_ms": 2081.7768946290016
+      },
+      {
+        "user_id": 92688,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2128.088679164648,
+        "latency_reverse_ms": 2100.2627685666084
+      },
+      {
+        "user_id": 88855,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1970.1464772224426,
+        "latency_reverse_ms": 1982.8582368791103
+      },
+      {
+        "user_id": 73732,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1980.96339777112,
+        "latency_reverse_ms": 1989.9272993206978
+      },
+      {
+        "user_id": 97264,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 2177.6856929063797,
+        "latency_reverse_ms": 2161.9304791092873
+      },
+      {
+        "user_id": 20211,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1703.3758275210857,
+        "latency_reverse_ms": 1492.3583045601845
+      },
+      {
+        "user_id": 64669,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1570.7094334065914,
+        "latency_reverse_ms": 1569.4770961999893
+      },
+      {
+        "user_id": 5457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1476.862259209156,
+        "latency_reverse_ms": 1477.9836721718311
+      },
+      {
+        "user_id": 74193,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1561.2782575190067,
+        "latency_reverse_ms": 1270.4107537865639
+      }
+    ]
+  },
+  {
+    "dataset": "amazon",
+    "model_a": "dcd",
+    "model_b": "dice",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 50,
+    "consistency_rate": 0.0,
+    "llm_winner": "tie",
+    "ndcg_winner": "dice",
+    "coverage_winner": "dice",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 59180,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1654.6445861458778,
+        "latency_reverse_ms": 1655.3204879164696
+      },
+      {
+        "user_id": 259000,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1721.2642319500446,
+        "latency_reverse_ms": 1691.9045001268387
+      },
+      {
+        "user_id": 554481,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1705.2896358072758,
+        "latency_reverse_ms": 1686.0220432281494
+      },
+      {
+        "user_id": 107348,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1716.7721390724182,
+        "latency_reverse_ms": 1702.8868198394775
+      },
+      {
+        "user_id": 377944,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1646.4396938681602,
+        "latency_reverse_ms": 1611.9831092655659
+      },
+      {
+        "user_id": 439457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1669.3937256932259,
+        "latency_reverse_ms": 1652.5730900466442
+      },
+      {
+        "user_id": 144916,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1640.0681026279926,
+        "latency_reverse_ms": 1621.3729679584503
+      },
+      {
+        "user_id": 69166,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1817.6671862602234,
+        "latency_reverse_ms": 1783.8797979056835
+      },
+      {
+        "user_id": 104457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1645.9110267460346,
+        "latency_reverse_ms": 1651.6965180635452
+      },
+      {
+        "user_id": 549149,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1702.0934596657753,
+        "latency_reverse_ms": 1692.0067630708218
+      },
+      {
+        "user_id": 422300,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1679.6090118587017,
+        "latency_reverse_ms": 1677.4554029107094
+      },
+      {
+        "user_id": 392952,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1631.7471861839294,
+        "latency_reverse_ms": 1646.8256451189518
+      },
+      {
+        "user_id": 440358,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1721.6452285647392,
+        "latency_reverse_ms": 1718.138512223959
+      },
+      {
+        "user_id": 597120,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1678.8700930774212,
+        "latency_reverse_ms": 1674.262698739767
+      },
+      {
+        "user_id": 516457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1688.819870352745,
+        "latency_reverse_ms": 1677.0106628537178
+      },
+      {
+        "user_id": 46903,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1638.4300477802753,
+        "latency_reverse_ms": 1635.6677673757076
+      },
+      {
+        "user_id": 441710,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1673.4584830701351,
+        "latency_reverse_ms": 1675.7328547537327
+      },
+      {
+        "user_id": 350849,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1671.1409501731396,
+        "latency_reverse_ms": 1662.1049791574478
+      },
+      {
+        "user_id": 565629,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1720.1640084385872,
+        "latency_reverse_ms": 1708.7996788322926
+      },
+      {
+        "user_id": 64236,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1636.2927332520485,
+        "latency_reverse_ms": 1627.1143183112144
+      },
+      {
+        "user_id": 25111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1706.3727267086506,
+        "latency_reverse_ms": 1666.985496878624
+      },
+      {
+        "user_id": 462165,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1633.5939094424248,
+        "latency_reverse_ms": 1614.721104502678
+      },
+      {
+        "user_id": 144310,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1671.8649826943874,
+        "latency_reverse_ms": 1661.6770140826702
+      },
+      {
+        "user_id": 76986,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1700.7162384688854,
+        "latency_reverse_ms": 1697.1029303967953
+      },
+      {
+        "user_id": 27401,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1685.0158460438251,
+        "latency_reverse_ms": 1675.5716688930988
+      },
+      {
+        "user_id": 206208,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.9404635429382,
+        "latency_reverse_ms": 1659.5561131834984
+      },
+      {
+        "user_id": 51420,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1683.2363791763783,
+        "latency_reverse_ms": 1660.965047776699
+      },
+      {
+        "user_id": 603363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1673.9634647965431,
+        "latency_reverse_ms": 1663.1303541362286
+      },
+      {
+        "user_id": 29474,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1671.912521123886,
+        "latency_reverse_ms": 1670.8409897983074
+      },
+      {
+        "user_id": 167036,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1708.1098817288876,
+        "latency_reverse_ms": 1685.403484851122
+      },
+      {
+        "user_id": 590353,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.585920214653,
+        "latency_reverse_ms": 1655.6399166584015
+      },
+      {
+        "user_id": 408468,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1662.263859063387,
+        "latency_reverse_ms": 1657.7972583472729
+      },
+      {
+        "user_id": 164673,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1710.3854343295097,
+        "latency_reverse_ms": 1703.186810016632
+      },
+      {
+        "user_id": 448480,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1740.8711090683937,
+        "latency_reverse_ms": 1720.445342361927
+      },
+      {
+        "user_id": 162119,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1674.5433621108532,
+        "latency_reverse_ms": 1664.0550643205643
+      },
+      {
+        "user_id": 479366,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1656.80568292737,
+        "latency_reverse_ms": 1643.0296376347542
+      },
+      {
+        "user_id": 130605,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1632.2720646858215,
+        "latency_reverse_ms": 1537.9309467971325
+      },
+      {
+        "user_id": 58938,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1322.169654071331,
+        "latency_reverse_ms": 1303.479764610529
+      },
+      {
+        "user_id": 429729,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1425.2046719193459,
+        "latency_reverse_ms": 1701.8132396042347
+      },
+      {
+        "user_id": 109574,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1721.3585078716278,
+        "latency_reverse_ms": 1722.8280939161777
+      },
+      {
+        "user_id": 577329,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.5740588903427,
+        "latency_reverse_ms": 1677.5188595056534
+      },
+      {
+        "user_id": 236721,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1676.1230379343033,
+        "latency_reverse_ms": 1656.8986475467682
+      },
+      {
+        "user_id": 581327,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1615.5215241014957,
+        "latency_reverse_ms": 1524.431273341179
+      },
+      {
+        "user_id": 416654,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1715.5703343451023,
+        "latency_reverse_ms": 1700.8489295840263
+      },
+      {
+        "user_id": 506509,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1664.8984253406525,
+        "latency_reverse_ms": 1663.0310416221619
+      },
+      {
+        "user_id": 64126,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1664.5401529967785,
+        "latency_reverse_ms": 1667.0909002423286
+      },
+      {
+        "user_id": 505657,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1711.349681019783,
+        "latency_reverse_ms": 1728.6592461168766
+      },
+      {
+        "user_id": 34666,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1719.4731682538986,
+        "latency_reverse_ms": 1699.6654085814953
+      },
+      {
+        "user_id": 393514,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1655.1748625934124,
+        "latency_reverse_ms": 1653.1196273863316
+      },
+      {
+        "user_id": 421029,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.5844660401344,
+        "latency_reverse_ms": 1580.9733718633652
+      }
+    ]
+  },
+  {
+    "dataset": "amazon",
+    "model_a": "dcd",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 50,
+    "consistency_rate": 0.0,
+    "llm_winner": "tie",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "dcd",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 59180,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1667.42292791605,
+        "latency_reverse_ms": 1664.3685549497604
+      },
+      {
+        "user_id": 259000,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1718.739092350006,
+        "latency_reverse_ms": 1737.8520742058754
+      },
+      {
+        "user_id": 554481,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1723.8920703530312,
+        "latency_reverse_ms": 1715.463362634182
+      },
+      {
+        "user_id": 107348,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1721.5859591960907,
+        "latency_reverse_ms": 1709.8960354924202
+      },
+      {
+        "user_id": 377944,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1764.0343829989433,
+        "latency_reverse_ms": 1644.6570046246052
+      },
+      {
+        "user_id": 439457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1653.9288237690926,
+        "latency_reverse_ms": 1670.6521846354008
+      },
+      {
+        "user_id": 144916,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1655.7104587554932,
+        "latency_reverse_ms": 1676.0558001697063
+      },
+      {
+        "user_id": 69166,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1808.2234412431717,
+        "latency_reverse_ms": 1793.2971343398094
+      },
+      {
+        "user_id": 104457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1654.2952992022038,
+        "latency_reverse_ms": 1659.3877337872982
+      },
+      {
+        "user_id": 549149,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1696.2024420499802,
+        "latency_reverse_ms": 1663.3422672748566
+      },
+      {
+        "user_id": 422300,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1670.5414056777954,
+        "latency_reverse_ms": 1681.2600791454315
+      },
+      {
+        "user_id": 392952,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.7633344829082,
+        "latency_reverse_ms": 1654.370006173849
+      },
+      {
+        "user_id": 440358,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.8494756817818,
+        "latency_reverse_ms": 1667.723387479782
+      },
+      {
+        "user_id": 597120,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1636.9168907403946,
+        "latency_reverse_ms": 1655.4137542843819
+      },
+      {
+        "user_id": 516457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1666.231159120798,
+        "latency_reverse_ms": 1669.5819646120071
+      },
+      {
+        "user_id": 46903,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1615.3700277209282,
+        "latency_reverse_ms": 1623.6535087227821
+      },
+      {
+        "user_id": 441710,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1669.9559316039085,
+        "latency_reverse_ms": 1668.6264015734196
+      },
+      {
+        "user_id": 350849,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.5912297964096,
+        "latency_reverse_ms": 1680.8163188397884
+      },
+      {
+        "user_id": 565629,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1727.4800427258015,
+        "latency_reverse_ms": 1713.0997031927109
+      },
+      {
+        "user_id": 64236,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1645.6073448061943,
+        "latency_reverse_ms": 1636.7116197943687
+      },
+      {
+        "user_id": 25111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.3209128677845,
+        "latency_reverse_ms": 1665.394064038992
+      },
+      {
+        "user_id": 462165,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1667.8888015449047,
+        "latency_reverse_ms": 1666.6456833481789
+      },
+      {
+        "user_id": 144310,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1663.204088807106,
+        "latency_reverse_ms": 1681.1658516526222
+      },
+      {
+        "user_id": 76986,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1669.7729490697384,
+        "latency_reverse_ms": 1676.3034611940384
+      },
+      {
+        "user_id": 27401,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1656.7972712218761,
+        "latency_reverse_ms": 1660.1669751107693
+      },
+      {
+        "user_id": 206208,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1658.9822545647621,
+        "latency_reverse_ms": 1666.5820479393005
+      },
+      {
+        "user_id": 51420,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1663.1518602371216,
+        "latency_reverse_ms": 1675.937432795763
+      },
+      {
+        "user_id": 603363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1637.1486969292164,
+        "latency_reverse_ms": 1645.425882190466
+      },
+      {
+        "user_id": 29474,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.7408672571182,
+        "latency_reverse_ms": 1682.8552782535553
+      },
+      {
+        "user_id": 167036,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1708.1974558532238,
+        "latency_reverse_ms": 1716.9617302715778
+      },
+      {
+        "user_id": 590353,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1619.8200657963753,
+        "latency_reverse_ms": 1629.2069666087627
+      },
+      {
+        "user_id": 408468,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.7423661351204,
+        "latency_reverse_ms": 1680.7801090180874
+      },
+      {
+        "user_id": 164673,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1675.08964240551,
+        "latency_reverse_ms": 1683.9154586195946
+      },
+      {
+        "user_id": 448480,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1726.364005357027,
+        "latency_reverse_ms": 1728.079155087471
+      },
+      {
+        "user_id": 162119,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1391.7346969246864,
+        "latency_reverse_ms": 1243.3133460581303
+      },
+      {
+        "user_id": 479366,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1236.5387119352818,
+        "latency_reverse_ms": 1357.3431633412838
+      },
+      {
+        "user_id": 130605,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.0762284100056,
+        "latency_reverse_ms": 1657.7592715620995
+      },
+      {
+        "user_id": 58938,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1714.975144714117,
+        "latency_reverse_ms": 1718.9375422894955
+      },
+      {
+        "user_id": 429729,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1714.898768812418,
+        "latency_reverse_ms": 1719.960555434227
+      },
+      {
+        "user_id": 109574,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1735.045101493597,
+        "latency_reverse_ms": 1714.0742130577564
+      },
+      {
+        "user_id": 577329,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1630.4194070398808,
+        "latency_reverse_ms": 1623.31822514534
+      },
+      {
+        "user_id": 236721,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1659.9318906664848,
+        "latency_reverse_ms": 1655.8559462428093
+      },
+      {
+        "user_id": 581327,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1626.069314777851,
+        "latency_reverse_ms": 1648.025929927826
+      },
+      {
+        "user_id": 416654,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1742.403905838728,
+        "latency_reverse_ms": 1725.3464423120022
+      },
+      {
+        "user_id": 506509,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1655.6239388883114,
+        "latency_reverse_ms": 1660.8983017504215
+      },
+      {
+        "user_id": 64126,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1692.5708130002022,
+        "latency_reverse_ms": 1668.6088852584362
+      },
+      {
+        "user_id": 505657,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1707.0509530603886,
+        "latency_reverse_ms": 1708.4946297109127
+      },
+      {
+        "user_id": 34666,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1718.6862714588642,
+        "latency_reverse_ms": 1705.0992734730244
+      },
+      {
+        "user_id": 393514,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1664.0872173011303,
+        "latency_reverse_ms": 1668.0636703968048
+      },
+      {
+        "user_id": 421029,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1654.8491828143597,
+        "latency_reverse_ms": 1545.5245599150658
+      }
+    ]
+  },
+  {
+    "dataset": "amazon",
+    "model_a": "dice",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 50,
+    "consistency_rate": 0.0,
+    "llm_winner": "tie",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "dice",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 59180,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1591.1141745746136,
+        "latency_reverse_ms": 1687.6712702214718
+      },
+      {
+        "user_id": 259000,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1708.693765103817,
+        "latency_reverse_ms": 1706.3830383121967
+      },
+      {
+        "user_id": 554481,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1725.6784997880459,
+        "latency_reverse_ms": 1716.9747985899448
+      },
+      {
+        "user_id": 107348,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1703.291468322277,
+        "latency_reverse_ms": 1714.0688672661781
+      },
+      {
+        "user_id": 377944,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1651.5575163066387,
+        "latency_reverse_ms": 1667.7893064916134
+      },
+      {
+        "user_id": 439457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1666.4104089140892,
+        "latency_reverse_ms": 1672.8319190442562
+      },
+      {
+        "user_id": 144916,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1636.7403082549572,
+        "latency_reverse_ms": 1641.9962532818317
+      },
+      {
+        "user_id": 69166,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1790.9154258668423,
+        "latency_reverse_ms": 1791.2227399647236
+      },
+      {
+        "user_id": 104457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1661.384504288435,
+        "latency_reverse_ms": 1664.8694947361946
+      },
+      {
+        "user_id": 549149,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1704.8045136034489,
+        "latency_reverse_ms": 1682.5459599494934
+      },
+      {
+        "user_id": 422300,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.2223739027977,
+        "latency_reverse_ms": 1661.6960354149342
+      },
+      {
+        "user_id": 392952,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1664.900068193674,
+        "latency_reverse_ms": 1653.734602034092
+      },
+      {
+        "user_id": 440358,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1708.5732445120811,
+        "latency_reverse_ms": 1695.5445036292076
+      },
+      {
+        "user_id": 597120,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1672.6001277565956,
+        "latency_reverse_ms": 1669.6441285312176
+      },
+      {
+        "user_id": 516457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1683.1241734325886,
+        "latency_reverse_ms": 1687.718290835619
+      },
+      {
+        "user_id": 46903,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1641.3761004805565,
+        "latency_reverse_ms": 1626.3620406389236
+      },
+      {
+        "user_id": 441710,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1618.9609505236149,
+        "latency_reverse_ms": 1627.9167607426643
+      },
+      {
+        "user_id": 350849,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1620.92200294137,
+        "latency_reverse_ms": 1638.9210894703865
+      },
+      {
+        "user_id": 565629,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1714.5927213132381,
+        "latency_reverse_ms": 1731.8065911531448
+      },
+      {
+        "user_id": 64236,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1653.3217392861843,
+        "latency_reverse_ms": 1653.0855745077133
+      },
+      {
+        "user_id": 25111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1692.859224975109,
+        "latency_reverse_ms": 1685.5895221233368
+      },
+      {
+        "user_id": 462165,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1639.8798562586308,
+        "latency_reverse_ms": 1627.1429508924484
+      },
+      {
+        "user_id": 144310,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1680.905930697918,
+        "latency_reverse_ms": 1665.1023998856544
+      },
+      {
+        "user_id": 76986,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1680.6590221822262,
+        "latency_reverse_ms": 1674.63069409132
+      },
+      {
+        "user_id": 27401,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1655.9653840959072,
+        "latency_reverse_ms": 1661.8860960006714
+      },
+      {
+        "user_id": 206208,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1624.9507777392864,
+        "latency_reverse_ms": 1615.0462813675404
+      },
+      {
+        "user_id": 51420,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.7525361776352,
+        "latency_reverse_ms": 1665.2034223079681
+      },
+      {
+        "user_id": 603363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1656.8449884653091,
+        "latency_reverse_ms": 1676.5403226017952
+      },
+      {
+        "user_id": 29474,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1684.1660514473915,
+        "latency_reverse_ms": 1693.6470419168472
+      },
+      {
+        "user_id": 167036,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1708.1379666924477,
+        "latency_reverse_ms": 1700.9530737996101
+      },
+      {
+        "user_id": 590353,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1658.8585786521435,
+        "latency_reverse_ms": 1648.6965753138065
+      },
+      {
+        "user_id": 408468,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1645.1684534549713,
+        "latency_reverse_ms": 1371.9887547194958
+      },
+      {
+        "user_id": 164673,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1271.9546407461166,
+        "latency_reverse_ms": 1272.308126091957
+      },
+      {
+        "user_id": 448480,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1517.9156921803951,
+        "latency_reverse_ms": 1725.3401763737202
+      },
+      {
+        "user_id": 162119,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1673.277135938406,
+        "latency_reverse_ms": 1676.6994260251522
+      },
+      {
+        "user_id": 479366,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1666.0891473293304,
+        "latency_reverse_ms": 1665.30517116189
+      },
+      {
+        "user_id": 130605,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1634.0080127120018,
+        "latency_reverse_ms": 1634.2879980802536
+      },
+      {
+        "user_id": 58938,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1701.2520357966423,
+        "latency_reverse_ms": 1717.611875385046
+      },
+      {
+        "user_id": 429729,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1694.6901604533195,
+        "latency_reverse_ms": 1714.1447216272354
+      },
+      {
+        "user_id": 109574,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1714.5008146762848,
+        "latency_reverse_ms": 1719.851527363062
+      },
+      {
+        "user_id": 577329,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.3701798319817,
+        "latency_reverse_ms": 1686.905164271593
+      },
+      {
+        "user_id": 236721,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.972738146782,
+        "latency_reverse_ms": 1655.576653778553
+      },
+      {
+        "user_id": 581327,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1602.8308160603046,
+        "latency_reverse_ms": 1611.5318052470684
+      },
+      {
+        "user_id": 416654,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1707.2829529643059,
+        "latency_reverse_ms": 1708.679847419262
+      },
+      {
+        "user_id": 506509,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1639.8526914417744,
+        "latency_reverse_ms": 1656.0012213885784
+      },
+      {
+        "user_id": 64126,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1667.4760431051254,
+        "latency_reverse_ms": 1672.901812940836
+      },
+      {
+        "user_id": 505657,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1692.5933100283146,
+        "latency_reverse_ms": 1717.2247394919395
+      },
+      {
+        "user_id": 34666,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.8412106335163,
+        "latency_reverse_ms": 1663.5192930698395
+      },
+      {
+        "user_id": 393514,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1618.209332227707,
+        "latency_reverse_ms": 1619.1877573728561
+      },
+      {
+        "user_id": 421029,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1656.622752547264,
+        "latency_reverse_ms": 1469.7651714086533
+      }
+    ]
+  },
+  {
+    "dataset": "amazon",
+    "model_a": "pdcl_b05",
+    "model_b": "apdcl_bmax10",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 50,
+    "consistency_rate": 0.0,
+    "llm_winner": "tie",
+    "ndcg_winner": "apdcl_bmax10",
+    "coverage_winner": "apdcl_bmax10",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 59180,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1606.6791042685509,
+        "latency_reverse_ms": 1688.5044649243355
+      },
+      {
+        "user_id": 259000,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1718.214076012373,
+        "latency_reverse_ms": 1722.9767739772797
+      },
+      {
+        "user_id": 554481,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1706.3956558704376,
+        "latency_reverse_ms": 1715.032547712326
+      },
+      {
+        "user_id": 107348,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1707.1141116321087,
+        "latency_reverse_ms": 1709.153488278389
+      },
+      {
+        "user_id": 377944,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1654.5318104326725,
+        "latency_reverse_ms": 1664.1417928040028
+      },
+      {
+        "user_id": 439457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1633.7849274277687,
+        "latency_reverse_ms": 1651.0965712368488
+      },
+      {
+        "user_id": 144916,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1638.5643854737282,
+        "latency_reverse_ms": 1670.870766043663
+      },
+      {
+        "user_id": 69166,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1800.7425144314766,
+        "latency_reverse_ms": 1786.368414759636
+      },
+      {
+        "user_id": 104457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1653.7091210484505,
+        "latency_reverse_ms": 1662.5212915241718
+      },
+      {
+        "user_id": 549149,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1651.7501696944237,
+        "latency_reverse_ms": 1651.3857990503311
+      },
+      {
+        "user_id": 422300,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1647.9857824742794,
+        "latency_reverse_ms": 1650.4267677664757
+      },
+      {
+        "user_id": 392952,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1653.8746431469917,
+        "latency_reverse_ms": 1659.8442681133747
+      },
+      {
+        "user_id": 440358,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1693.127155303955,
+        "latency_reverse_ms": 1704.298097640276
+      },
+      {
+        "user_id": 597120,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1667.056567966938,
+        "latency_reverse_ms": 1675.554420799017
+      },
+      {
+        "user_id": 516457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1664.275012910366,
+        "latency_reverse_ms": 1662.0095819234848
+      },
+      {
+        "user_id": 46903,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1611.2401708960533,
+        "latency_reverse_ms": 1615.7322898507118
+      },
+      {
+        "user_id": 441710,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1625.565953552723,
+        "latency_reverse_ms": 1618.281528353691
+      },
+      {
+        "user_id": 350849,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1639.0970647335052,
+        "latency_reverse_ms": 1638.579037040472
+      },
+      {
+        "user_id": 565629,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1731.7597046494484,
+        "latency_reverse_ms": 1718.420673161745
+      },
+      {
+        "user_id": 64236,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1639.2101421952248,
+        "latency_reverse_ms": 1670.0706630945206
+      },
+      {
+        "user_id": 25111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1651.610754430294,
+        "latency_reverse_ms": 1667.141143232584
+      },
+      {
+        "user_id": 462165,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1658.5830561816692,
+        "latency_reverse_ms": 1648.4408155083656
+      },
+      {
+        "user_id": 144310,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.9971363842487,
+        "latency_reverse_ms": 1670.2310182154179
+      },
+      {
+        "user_id": 76986,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1633.654247969389,
+        "latency_reverse_ms": 1660.4994758963585
+      },
+      {
+        "user_id": 27401,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1653.884131461382,
+        "latency_reverse_ms": 1663.590520620346
+      },
+      {
+        "user_id": 206208,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1668.2492904365063,
+        "latency_reverse_ms": 1672.8255487978458
+      },
+      {
+        "user_id": 51420,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.5559949576855,
+        "latency_reverse_ms": 1685.919038951397
+      },
+      {
+        "user_id": 603363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1625.1043267548084,
+        "latency_reverse_ms": 1627.4272426962852
+      },
+      {
+        "user_id": 29474,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1647.5661396980286,
+        "latency_reverse_ms": 1671.8518324196339
+      },
+      {
+        "user_id": 167036,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1488.2510639727116,
+        "latency_reverse_ms": 1302.00819298625
+      },
+      {
+        "user_id": 590353,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1212.8213420510292,
+        "latency_reverse_ms": 1366.863515228033
+      },
+      {
+        "user_id": 408468,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1654.8890471458435,
+        "latency_reverse_ms": 1654.122594743967
+      },
+      {
+        "user_id": 164673,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1677.8985299170017,
+        "latency_reverse_ms": 1680.7884201407433
+      },
+      {
+        "user_id": 448480,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1744.6965165436268,
+        "latency_reverse_ms": 1730.0237193703651
+      },
+      {
+        "user_id": 162119,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1665.1038639247417,
+        "latency_reverse_ms": 1673.709288239479
+      },
+      {
+        "user_id": 479366,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1669.5124730467796,
+        "latency_reverse_ms": 1650.8907452225685
+      },
+      {
+        "user_id": 130605,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1649.9765701591969,
+        "latency_reverse_ms": 1661.829300224781
+      },
+      {
+        "user_id": 58938,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1655.5107533931732,
+        "latency_reverse_ms": 1672.7650314569473
+      },
+      {
+        "user_id": 429729,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1734.9964305758476,
+        "latency_reverse_ms": 1713.053822517395
+      },
+      {
+        "user_id": 109574,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1724.7281447052956,
+        "latency_reverse_ms": 1716.3920477032661
+      },
+      {
+        "user_id": 577329,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1634.7299665212631,
+        "latency_reverse_ms": 1627.254031598568
+      },
+      {
+        "user_id": 236721,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.277800142765,
+        "latency_reverse_ms": 1658.4399938583374
+      },
+      {
+        "user_id": 581327,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1618.8423782587051,
+        "latency_reverse_ms": 1649.4413278996944
+      },
+      {
+        "user_id": 416654,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1707.6128497719765,
+        "latency_reverse_ms": 1707.3490247130394
+      },
+      {
+        "user_id": 506509,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1666.1383733153343,
+        "latency_reverse_ms": 1666.8294444680214
+      },
+      {
+        "user_id": 64126,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1713.276345282793,
+        "latency_reverse_ms": 1706.6436000168324
+      },
+      {
+        "user_id": 505657,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1712.6609422266483,
+        "latency_reverse_ms": 1716.0610854625702
+      },
+      {
+        "user_id": 34666,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1707.4871137738228,
+        "latency_reverse_ms": 1689.99782204628
+      },
+      {
+        "user_id": 393514,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1624.7553601861,
+        "latency_reverse_ms": 1622.1767365932465
+      },
+      {
+        "user_id": 421029,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.8445993363857,
+        "latency_reverse_ms": 1340.7359533011913
+      }
+    ]
+  },
+  {
+    "dataset": "amazon",
+    "model_a": "invcf",
+    "model_b": "paac",
+    "dimension": "balanced",
+    "n_trials": 50,
+    "prefer_a": 0,
+    "prefer_b": 0,
+    "tie": 0,
+    "inconsistent": 50,
+    "consistency_rate": 0.0,
+    "llm_winner": "tie",
+    "ndcg_winner": "paac",
+    "coverage_winner": "invcf",
+    "alignment_to_ndcg": 0.5,
+    "alignment_to_coverage": 0.5,
+    "per_trial": [
+      {
+        "user_id": 59180,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1646.7596478760242,
+        "latency_reverse_ms": 1680.2041232585907
+      },
+      {
+        "user_id": 259000,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1705.3307555615902,
+        "latency_reverse_ms": 1715.6158909201622
+      },
+      {
+        "user_id": 554481,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1717.1104587614536,
+        "latency_reverse_ms": 1732.132412493229
+      },
+      {
+        "user_id": 107348,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1697.2501762211323,
+        "latency_reverse_ms": 1709.21128988266
+      },
+      {
+        "user_id": 377944,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.4172997176647,
+        "latency_reverse_ms": 1664.4832603633404
+      },
+      {
+        "user_id": 439457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1672.2080446779728,
+        "latency_reverse_ms": 1677.5583364069462
+      },
+      {
+        "user_id": 144916,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1663.0987897515297,
+        "latency_reverse_ms": 1683.741483837366
+      },
+      {
+        "user_id": 69166,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1723.6492484807968,
+        "latency_reverse_ms": 1721.967302262783
+      },
+      {
+        "user_id": 104457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1667.3142910003662,
+        "latency_reverse_ms": 1664.5264402031898
+      },
+      {
+        "user_id": 549149,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1648.0748429894447,
+        "latency_reverse_ms": 1663.2065698504448
+      },
+      {
+        "user_id": 422300,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1684.224173426628,
+        "latency_reverse_ms": 1673.3384542167187
+      },
+      {
+        "user_id": 392952,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1683.6118139326572,
+        "latency_reverse_ms": 1682.5003139674664
+      },
+      {
+        "user_id": 440358,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1661.83640062809,
+        "latency_reverse_ms": 1679.3045029044151
+      },
+      {
+        "user_id": 597120,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1696.9082914292812,
+        "latency_reverse_ms": 1706.4191475510597
+      },
+      {
+        "user_id": 516457,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1671.955656260252,
+        "latency_reverse_ms": 1670.5321185290813
+      },
+      {
+        "user_id": 46903,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1674.551423639059,
+        "latency_reverse_ms": 1679.3002486228943
+      },
+      {
+        "user_id": 441710,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1681.7974150180817,
+        "latency_reverse_ms": 1683.457188308239
+      },
+      {
+        "user_id": 350849,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1657.3687121272087,
+        "latency_reverse_ms": 1672.9085445404053
+      },
+      {
+        "user_id": 565629,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1650.3058969974518,
+        "latency_reverse_ms": 1669.423185288906
+      },
+      {
+        "user_id": 64236,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1596.7850610613823,
+        "latency_reverse_ms": 1637.2946351766586
+      },
+      {
+        "user_id": 25111,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1675.9192645549774,
+        "latency_reverse_ms": 1668.7311381101608
+      },
+      {
+        "user_id": 462165,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1660.3139452636242,
+        "latency_reverse_ms": 1641.5837444365025
+      },
+      {
+        "user_id": 144310,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1695.8000883460045,
+        "latency_reverse_ms": 1699.3846744298935
+      },
+      {
+        "user_id": 76986,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1682.0049658417702,
+        "latency_reverse_ms": 1661.8983931839466
+      },
+      {
+        "user_id": 27401,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1621.4655190706253,
+        "latency_reverse_ms": 1639.7444643080235
+      },
+      {
+        "user_id": 206208,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1634.5480680465698,
+        "latency_reverse_ms": 1636.3608837127686
+      },
+      {
+        "user_id": 51420,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1677.6713021099567,
+        "latency_reverse_ms": 1635.3389210999012
+      },
+      {
+        "user_id": 603363,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1277.526330202818,
+        "latency_reverse_ms": 1319.501031190157
+      },
+      {
+        "user_id": 29474,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1245.9044829010963,
+        "latency_reverse_ms": 1269.1003903746605
+      },
+      {
+        "user_id": 167036,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1247.1632659435272,
+        "latency_reverse_ms": 1253.1451247632504
+      },
+      {
+        "user_id": 590353,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1239.3989562988281,
+        "latency_reverse_ms": 1253.4225098788738
+      },
+      {
+        "user_id": 408468,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1209.5963507890701,
+        "latency_reverse_ms": 1237.341322004795
+      },
+      {
+        "user_id": 164673,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1244.9557110667229,
+        "latency_reverse_ms": 1258.051112294197
+      },
+      {
+        "user_id": 448480,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1272.71119505167,
+        "latency_reverse_ms": 1287.3002141714096
+      },
+      {
+        "user_id": 162119,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1258.854202926159,
+        "latency_reverse_ms": 1266.7172439396381
+      },
+      {
+        "user_id": 479366,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1235.5028800666332,
+        "latency_reverse_ms": 1254.1155852377415
+      },
+      {
+        "user_id": 130605,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1215.7227285206318,
+        "latency_reverse_ms": 1246.4473024010658
+      },
+      {
+        "user_id": 58938,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1268.467303365469,
+        "latency_reverse_ms": 1279.424037784338
+      },
+      {
+        "user_id": 429729,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1244.5628382265568,
+        "latency_reverse_ms": 1283.6410403251648
+      },
+      {
+        "user_id": 109574,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1275.5993232131004,
+        "latency_reverse_ms": 1299.3666902184486
+      },
+      {
+        "user_id": 577329,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1236.040074378252,
+        "latency_reverse_ms": 1264.3602192401886
+      },
+      {
+        "user_id": 236721,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1245.2838718891144,
+        "latency_reverse_ms": 1234.7240336239338
+      },
+      {
+        "user_id": 581327,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1215.2071595191956,
+        "latency_reverse_ms": 1226.703580468893
+      },
+      {
+        "user_id": 416654,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1282.7751524746418,
+        "latency_reverse_ms": 1295.5607287585735
+      },
+      {
+        "user_id": 506509,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1260.920476168394,
+        "latency_reverse_ms": 1262.2427120804787
+      },
+      {
+        "user_id": 64126,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1228.2193079590797,
+        "latency_reverse_ms": 1245.687298476696
+      },
+      {
+        "user_id": 505657,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1290.4980070888996,
+        "latency_reverse_ms": 1300.8333966135979
+      },
+      {
+        "user_id": 34666,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1266.8466046452522,
+        "latency_reverse_ms": 1255.5938623845577
+      },
+      {
+        "user_id": 393514,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1236.611656844616,
+        "latency_reverse_ms": 1256.004061549902
+      },
+      {
+        "user_id": 421029,
+        "fwd_verdict": "A",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": false,
+        "effective_preference": "INCONSISTENT",
+        "latency_forward_ms": 1042.0668199658394,
+        "latency_reverse_ms": 836.5199752151966
+      }
+    ]
+  }
+]

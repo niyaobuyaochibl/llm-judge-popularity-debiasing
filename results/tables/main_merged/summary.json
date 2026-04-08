@@ -1,0 +1,6 @@
+{
+  "num_records": 40,
+  "avg_consistency_rate": 0.9149999999999998,
+  "avg_alignment_to_ndcg": 0.4875,
+  "avg_alignment_to_coverage": 0.4875
+}

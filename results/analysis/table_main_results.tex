@@ -1,0 +1,35 @@
+\begin{table*}[htbp]
+\centering
+\small
+\caption{LLM judge verdicts across 6 judges for each debiasing pair comparison. Each cell shows the winner (A/B/tie) and bidirectional consistency rate in parentheses. Bold indicates agreement with NDCG ground truth.}
+\label{tab:main-results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llllcccccc}
+\hline
+Dataset & Pair & Dim. & GT & Phi-2 & Qwen2.5-7B & Qwen-Plus & DeepSeek-V3 & MiniMax-M2.7 & Kimi-K2 \\
+\hline
+Yelp & dcd vs dice & bal & dcd & tie(100\%) & tie(4\%) & tie(16\%) & \textbf{dcd(76\%)} & tie(44\%) & \textbf{dcd(84\%)} \\
+ &  & div & dcd & tie(100\%) & dice(18\%) & dice(32\%) & dice(64\%) & \textbf{dcd(18\%)} & dice(52\%) \\
+ & dcd vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & tie(24\%) & \textbf{apdcl\_bmax10(2\%)} & \textbf{apdcl\_bmax10(50\%)} & \textbf{apdcl\_bmax10(42\%)} & \textbf{apdcl\_bmax10(58\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & tie(34\%) & dcd(12\%) & \textbf{apdcl\_bmax10(54\%)} & \textbf{apdcl\_bmax10(32\%)} & dcd(34\%) \\
+ & dice vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & \textbf{apdcl\_bmax10(2\%)} & \textbf{apdcl\_bmax10(8\%)} & \textbf{apdcl\_bmax10(66\%)} & tie(36\%) & \textbf{apdcl\_bmax10(78\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & dice(12\%) & dice(24\%) & dice(74\%) & \textbf{apdcl\_bmax10(38\%)} & dice(62\%) \\
+ & pdcl\_b05 vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & tie(8\%) & tie(0\%) & \textbf{apdcl\_bmax10(50\%)} & pdcl\_b05(56\%) & \textbf{apdcl\_bmax10(56\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & pdcl\_b05(16\%) & \textbf{apdcl\_bmax10(8\%)} & \textbf{apdcl\_bmax10(60\%)} & \textbf{apdcl\_bmax10(32\%)} & \textbf{apdcl\_bmax10(52\%)} \\
+ & invcf vs paac & bal & paac & tie(100\%) & tie(0\%) & \textbf{paac(2\%)} & \textbf{paac(64\%)} & \textbf{paac(32\%)} & \textbf{paac(62\%)} \\
+ &  & div & paac & tie(100\%) & invcf(14\%) & invcf(12\%) & invcf(58\%) & \textbf{paac(24\%)} & invcf(60\%) \\
+\hline
+Amazon & dcd vs dice & bal & dice & tie(100\%) & \textbf{dice(32\%)} & \textbf{dice(36\%)} & \textbf{dice(74\%)} & \textbf{dice(66\%)} & \textbf{dice(92\%)} \\
+ &  & div & dice & tie(100\%) & \textbf{dice(22\%)} & tie(28\%) & dcd(48\%) & dcd(60\%) & dcd(76\%) \\
+ & dcd vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & \textbf{apdcl\_bmax10(42\%)} & \textbf{apdcl\_bmax10(32\%)} & \textbf{apdcl\_bmax10(54\%)} & \textbf{apdcl\_bmax10(48\%)} & \textbf{apdcl\_bmax10(84\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & dcd(10\%) & tie(8\%) & dcd(28\%) & dcd(64\%) & dcd(78\%) \\
+ & dice vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & \textbf{apdcl\_bmax10(42\%)} & dice(18\%) & \textbf{apdcl\_bmax10(56\%)} & \textbf{apdcl\_bmax10(44\%)} & \textbf{apdcl\_bmax10(80\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & dice(20\%) & dice(18\%) & dice(42\%) & dice(62\%) & dice(70\%) \\
+ & pdcl\_b05 vs apdcl\_bmax10 & bal & apdcl\_bmax10 & tie(100\%) & \textbf{apdcl\_bmax10(84\%)} & tie(0\%) & \textbf{apdcl\_bmax10(24\%)} & \textbf{apdcl\_bmax10(32\%)} & \textbf{apdcl\_bmax10(50\%)} \\
+ &  & div & apdcl\_bmax10 & tie(100\%) & tie(64\%) & \textbf{apdcl\_bmax10(12\%)} & \textbf{apdcl\_bmax10(24\%)} & \textbf{apdcl\_bmax10(52\%)} & \textbf{apdcl\_bmax10(34\%)} \\
+ & invcf vs paac & bal & paac & tie(100\%) & invcf(38\%) & invcf(36\%) & invcf(64\%) & invcf(68\%) & invcf(84\%) \\
+ &  & div & paac & tie(14\%) & invcf(38\%) & invcf(34\%) & invcf(54\%) & invcf(70\%) & invcf(74\%) \\
+\hline
+\end{tabular}%
+}
+\end{table*}

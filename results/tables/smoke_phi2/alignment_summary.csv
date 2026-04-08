@@ -1,0 +1,3 @@
+dataset,dimension,alignment_to_ndcg,alignment_to_coverage,consistency_rate
+amazon,balanced,0.5,0.5,0.0
+yelp,balanced,0.5,0.5,0.0

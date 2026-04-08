@@ -1,0 +1,25 @@
+{
+  "model_name": "deepseek-v3",
+  "datasets": [
+    "amazon",
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced",
+    "diversity"
+  ],
+  "n_users": 50,
+  "seed": 42,
+  "elapsed_seconds": 1043.8462691307068,
+  "num_records": 20,
+  "llm_winner_counts": {
+    "apdcl_bmax10": 9,
+    "dcd": 3,
+    "dice": 4,
+    "invcf": 3,
+    "paac": 1
+  },
+  "avg_consistency_rate": 0.542,
+  "avg_alignment_to_ndcg": 0.6,
+  "avg_alignment_to_coverage": 0.6
+}

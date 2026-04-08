@@ -1,0 +1,25 @@
+{
+  "model_name": "Kimi-K2",
+  "datasets": [
+    "amazon",
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced",
+    "diversity"
+  ],
+  "n_users": 50,
+  "seed": 42,
+  "elapsed_seconds": 9854.843951702118,
+  "num_records": 20,
+  "llm_winner_counts": {
+    "apdcl_bmax10": 8,
+    "dcd": 4,
+    "dice": 4,
+    "invcf": 3,
+    "paac": 1
+  },
+  "avg_consistency_rate": 0.6599999999999999,
+  "avg_alignment_to_ndcg": 0.55,
+  "avg_alignment_to_coverage": 0.65
+}

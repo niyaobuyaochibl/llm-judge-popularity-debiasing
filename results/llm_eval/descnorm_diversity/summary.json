@@ -1,0 +1,16 @@
+{
+  "model_name": "/root/autodl-tmp/models/phi-2",
+  "dimensions": [
+    "diversity"
+  ],
+  "n_users": 50,
+  "seed": 42,
+  "elapsed_seconds": 536.9207298755646,
+  "num_records": 10,
+  "llm_winner_counts": {
+    "tie": 10
+  },
+  "avg_consistency_rate": 0.0,
+  "avg_alignment_to_ndcg": 0.5,
+  "avg_alignment_to_coverage": 0.5
+}

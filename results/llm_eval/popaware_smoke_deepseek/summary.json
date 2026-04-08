@@ -1,0 +1,24 @@
+{
+  "model_name": "deepseek-chat",
+  "datasets": [
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced"
+  ],
+  "n_users": 5,
+  "seed": 42,
+  "elapsed_seconds": 50.1622314453125,
+  "num_records": 1,
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "llm_winner_counts": {
+    "dcd": 1
+  },
+  "avg_consistency_rate": 1.0,
+  "avg_alignment_to_ndcg": 1.0,
+  "avg_alignment_to_coverage": 1.0,
+  "avg_alignment_to_tail_exposure": 1.0,
+  "avg_alignment_to_gini": 1.0,
+  "avg_alignment_to_arp": 1.0
+}

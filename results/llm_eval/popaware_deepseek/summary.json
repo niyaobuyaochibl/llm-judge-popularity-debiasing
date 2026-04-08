@@ -1,0 +1,31 @@
+{
+  "model_name": "deepseek-chat",
+  "datasets": [
+    "amazon",
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced",
+    "diversity"
+  ],
+  "n_users": 50,
+  "seed": 42,
+  "elapsed_seconds": 507.5111598968506,
+  "num_records": 20,
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "llm_winner_counts": {
+    "dcd": 5,
+    "apdcl_bmax10": 5,
+    "dice": 4,
+    "invcf": 2,
+    "paac": 2,
+    "pdcl_b05": 2
+  },
+  "avg_consistency_rate": 0.8099999999999999,
+  "avg_alignment_to_ndcg": 0.55,
+  "avg_alignment_to_coverage": 0.75,
+  "avg_alignment_to_tail_exposure": 0.75,
+  "avg_alignment_to_gini": 0.85,
+  "avg_alignment_to_arp": 0.85
+}

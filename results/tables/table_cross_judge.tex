@@ -1,0 +1,37 @@
+\begin{table*}[t]
+\centering
+\caption{Cross-judge comparison of phi-2 (local, 2.7B) and Qwen-Plus (API, $>$100B). Consistency is the fraction of user-level trials where the forward and reversed verdicts agree. Alignment indicates whether the aggregate LLM winner matches the NDCG or coverage winner (1.0 = match, 0.5 = tie, 0.0 = mismatch).}
+\label{tab:cross_judge}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{ll l rrr rrr}
+\toprule
+ & & & \multicolumn{3}{c}{\textbf{phi-2 (local)}} & \multicolumn{3}{c}{\textbf{Qwen-Plus (API)}} \\
+\cmidrule(lr){4-6} \cmidrule(lr){7-9}
+Dataset & Pair & Dim. & Winner & Cons. & Align. & Winner & Cons. & Align. \\
+\midrule
+Yelp & DCD vs DICE & Bal & Tie & 0.96 & 0.5/0.5 & Tie & 0.16 & 0.5/0.5 \\
+Yelp & DCD vs DICE & Div & Tie & 1.00 & 0.5/0.5 & DICE & 0.32 & 0.0/0.0 \\
+Yelp & DCD vs A-PDCL & Bal & Tie & 0.96 & 0.5/0.5 & A-PDCL & 0.02 & 1.0/0.0 \\
+Yelp & DCD vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & DCD & 0.12 & 0.0/1.0 \\
+Yelp & DICE vs A-PDCL & Bal & Tie & 0.92 & 0.5/0.5 & A-PDCL & 0.08 & 1.0/1.0 \\
+Yelp & DICE vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & DICE & 0.24 & 0.0/0.0 \\
+Yelp & PDCL vs A-PDCL & Bal & Tie & 0.96 & 0.5/0.5 & Tie & 0.00 & 0.5/0.5 \\
+Yelp & PDCL vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & A-PDCL & 0.08 & 1.0/1.0 \\
+Yelp & InvCF vs PAAC & Bal & Tie & 0.90 & 0.5/0.5 & PAAC & 0.02 & 1.0/0.0 \\
+Yelp & InvCF vs PAAC & Div & Tie & 1.00 & 0.5/0.5 & InvCF & 0.12 & 0.0/1.0 \\
+\midrule
+Amazon & DCD vs DICE & Bal & Tie & 1.00 & 0.5/0.5 & DICE & 0.36 & 1.0/1.0 \\
+Amazon & DCD vs DICE & Div & Tie & 1.00 & 0.5/0.5 & Tie & 0.28 & 0.5/0.5 \\
+Amazon & DCD vs A-PDCL & Bal & Tie & 1.00 & 0.5/0.5 & A-PDCL & 0.32 & 1.0/0.0 \\
+Amazon & DCD vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & Tie & 0.08 & 0.5/0.5 \\
+Amazon & DICE vs A-PDCL & Bal & Tie & 1.00 & 0.5/0.5 & DICE & 0.18 & 0.0/1.0 \\
+Amazon & DICE vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & DICE & 0.18 & 0.0/1.0 \\
+Amazon & PDCL vs A-PDCL & Bal & Tie & 1.00 & 0.5/0.5 & Tie & 0.00 & 0.5/0.5 \\
+Amazon & PDCL vs A-PDCL & Div & Tie & 1.00 & 0.5/0.5 & A-PDCL & 0.12 & 1.0/1.0 \\
+Amazon & InvCF vs PAAC & Bal & Tie & 1.00 & 0.5/0.5 & InvCF & 0.36 & 0.0/1.0 \\
+Amazon & InvCF vs PAAC & Div & Tie & 1.00 & 0.5/0.5 & InvCF & 0.34 & 0.0/1.0 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Average}} & Tie & 0.985 & 0.5/0.5 & --- & 0.169 & 0.5/0.6 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

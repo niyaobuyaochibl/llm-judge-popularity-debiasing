@@ -1,0 +1,24 @@
+{
+  "model_name": "kimi-k2-turbo-preview",
+  "datasets": [
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced"
+  ],
+  "n_users": 5,
+  "seed": 42,
+  "elapsed_seconds": 105.06057500839233,
+  "num_records": 1,
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "llm_winner_counts": {
+    "dcd": 1
+  },
+  "avg_consistency_rate": 1.0,
+  "avg_alignment_to_ndcg": 1.0,
+  "avg_alignment_to_coverage": 1.0,
+  "avg_alignment_to_tail_exposure": 1.0,
+  "avg_alignment_to_gini": 1.0,
+  "avg_alignment_to_arp": 1.0
+}

@@ -1,0 +1,13 @@
+normalized_model,dataset,s42,s43,s44,matched_seeds
+dcd,yelp,ok,ok,ok,3
+dcd,amazon,ok,ok,ok,3
+dice,yelp,ok,ok,ok,3
+dice,amazon,ok,ok,missing,2
+invcf,yelp,ok,ok,ok,3
+invcf,amazon,ok,ok,missing,2
+pdcl_b05,yelp,ok,ok,ok,3
+pdcl_b05,amazon,ok,ok,ok,3
+apdcl_bmax10,yelp,ok,ok,ok,3
+apdcl_bmax10,amazon,ok,ok,ok,3
+paac,yelp,ok,ok,ok,3
+paac,amazon,ok,ok,ok,3

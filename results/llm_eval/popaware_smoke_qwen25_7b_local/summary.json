@@ -1,0 +1,24 @@
+{
+  "model_name": "/root/autodl-tmp/models/Qwen2.5-7B-Instruct",
+  "datasets": [
+    "yelp"
+  ],
+  "dimensions": [
+    "balanced"
+  ],
+  "n_users": 5,
+  "seed": 42,
+  "elapsed_seconds": 6.6889379024505615,
+  "num_records": 1,
+  "prompt_style": "popularity_aware",
+  "title_only": false,
+  "llm_winner_counts": {
+    "dice": 1
+  },
+  "avg_consistency_rate": 0.2,
+  "avg_alignment_to_ndcg": 0.0,
+  "avg_alignment_to_coverage": 0.0,
+  "avg_alignment_to_tail_exposure": 0.0,
+  "avg_alignment_to_gini": 0.0,
+  "avg_alignment_to_arp": 0.0
+}

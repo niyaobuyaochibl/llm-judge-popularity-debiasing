@@ -1,0 +1,149 @@
+[
+  {
+    "dataset": "yelp",
+    "model_a": "dcd",
+    "model_b": "dice",
+    "dimension": "balanced",
+    "prompt_style": "popularity_aware",
+    "title_only": false,
+    "n_trials": 5,
+    "prefer_a": 3,
+    "prefer_b": 2,
+    "tie": 0,
+    "inconsistent": 0,
+    "consistency_rate": 1.0,
+    "llm_winner": "dcd",
+    "ndcg_winner": "dcd",
+    "coverage_winner": "dcd",
+    "tail_exposure_winner": "dcd",
+    "gini_winner": "dcd",
+    "arp_winner": "dcd",
+    "alignment_to_ndcg": 1.0,
+    "alignment_to_coverage": 1.0,
+    "alignment_to_tail_exposure": 1.0,
+    "alignment_to_gini": 1.0,
+    "alignment_to_arp": 1.0,
+    "per_trial": [
+      {
+        "user_id": 19308,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dcd",
+        "latency_forward_ms": 1454.327017068863,
+        "latency_reverse_ms": 1146.9139195978642,
+        "list_a_popularity": {
+          "head": 3,
+          "mid": 14,
+          "tail": 3,
+          "unknown": 0
+        },
+        "list_b_popularity": {
+          "head": 5,
+          "mid": 13,
+          "tail": 2,
+          "unknown": 0
+        },
+        "list_a_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20",
+        "list_b_popularity_summary": "Head: 5/20; Mid: 13/20; Tail: 2/20"
+      },
+      {
+        "user_id": 24594,
+        "fwd_verdict": "B",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": true,
+        "effective_preference": "dice",
+        "latency_forward_ms": 1066.6517429053783,
+        "latency_reverse_ms": 1083.83172377944,
+        "list_a_popularity": {
+          "head": 5,
+          "mid": 12,
+          "tail": 3,
+          "unknown": 0
+        },
+        "list_b_popularity": {
+          "head": 3,
+          "mid": 14,
+          "tail": 3,
+          "unknown": 0
+        },
+        "list_a_popularity_summary": "Head: 5/20; Mid: 12/20; Tail: 3/20",
+        "list_b_popularity_summary": "Head: 3/20; Mid: 14/20; Tail: 3/20"
+      },
+      {
+        "user_id": 18930,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dcd",
+        "latency_forward_ms": 1469.9805043637753,
+        "latency_reverse_ms": 1186.1327141523361,
+        "list_a_popularity": {
+          "head": 8,
+          "mid": 7,
+          "tail": 5,
+          "unknown": 0
+        },
+        "list_b_popularity": {
+          "head": 8,
+          "mid": 7,
+          "tail": 5,
+          "unknown": 0
+        },
+        "list_a_popularity_summary": "Head: 8/20; Mid: 7/20; Tail: 5/20",
+        "list_b_popularity_summary": "Head: 8/20; Mid: 7/20; Tail: 5/20"
+      },
+      {
+        "user_id": 18392,
+        "fwd_verdict": "B",
+        "rev_verdict": "A",
+        "rev_mapped": "B",
+        "consistent": true,
+        "effective_preference": "dice",
+        "latency_forward_ms": 1184.2888370156288,
+        "latency_reverse_ms": 1153.875108808279,
+        "list_a_popularity": {
+          "head": 5,
+          "mid": 14,
+          "tail": 1,
+          "unknown": 0
+        },
+        "list_b_popularity": {
+          "head": 3,
+          "mid": 13,
+          "tail": 4,
+          "unknown": 0
+        },
+        "list_a_popularity_summary": "Head: 5/20; Mid: 14/20; Tail: 1/20",
+        "list_b_popularity_summary": "Head: 3/20; Mid: 13/20; Tail: 4/20"
+      },
+      {
+        "user_id": 81116,
+        "fwd_verdict": "A",
+        "rev_verdict": "B",
+        "rev_mapped": "A",
+        "consistent": true,
+        "effective_preference": "dcd",
+        "latency_forward_ms": 1106.6230349242687,
+        "latency_reverse_ms": 1080.1823325455189,
+        "list_a_popularity": {
+          "head": 4,
+          "mid": 13,
+          "tail": 3,
+          "unknown": 0
+        },
+        "list_b_popularity": {
+          "head": 2,
+          "mid": 17,
+          "tail": 1,
+          "unknown": 0
+        },
+        "list_a_popularity_summary": "Head: 4/20; Mid: 13/20; Tail: 3/20",
+        "list_b_popularity_summary": "Head: 2/20; Mid: 17/20; Tail: 1/20"
+      }
+    ]
+  }
+]
