@@ -1,0 +1,52 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+
+\begin{document}
+
+\begin{flushright}
+Jingjing Fan\\
+School of Information Engineering\\
+Hebei University of Architecture\\
+Zhangjiakou 075000, China\\
+\href{mailto:fjj1960@hebiace.edu.cn}{fjj1960@hebiace.edu.cn}
+\end{flushright}
+
+\vspace{1em}
+
+Editor-in-Chief\\
+\emph{Journal of Big Data}
+
+\vspace{1em}
+
+Dear Editor,
+
+We submit the manuscript entitled ``Can Large Language Model Judges Recognize Popularity Debiasing? A Multi-Judge Benchmark and Validation Protocol for Large-Scale Recommender Evaluation'' for consideration as a \textbf{Methodology} article in \emph{Journal of Big Data}.
+
+This work addresses a practical evaluation problem in large-scale recommender systems: popularity debiasing is usually validated with catalog-level metrics such as coverage, Gini concentration, average recommendation popularity, and tail exposure, while recent LLM-as-a-judge pipelines rely on local pairwise textual comparison. We test whether these evaluation paradigms are compatible. The manuscript contributes a benchmark spanning six debiasing recommenders, two real-world datasets, and six language-model judges, together with bidirectional consistency checks, cross-judge agreement analysis, and a human sanity check.
+
+The manuscript also goes beyond a purely negative result. In addition to showing that blind local pairwise judging suppresses the debiasing signal, we introduce and test a popularity-aware validation probe that exposes explicit HEAD/MID/TAIL evidence and list-level popularity summaries. This probe materially improves judge sensitivity for both a local 7B model and DeepSeek-V3, showing that the protocol can be used not only to diagnose judge failure but also to validate whether an AI-assisted evaluation setup preserves distributional signals that matter in large-scale recommendation.
+
+We believe the manuscript is a strong fit for \emph{Journal of Big Data} because it presents a tested computational methodology for validating AI-assisted evaluation under large-catalog recommendation settings, and because it translates the findings into reproducible guidance for data-driven recommender evaluation. The paper aligns with the journal's emphasis on data analytics methodology, scalable AI-enabled systems, and practically grounded evaluation procedures.
+
+We confirm that this manuscript is original, has not been published previously, and is not under consideration for publication elsewhere. All authors have read and approved the submitted version. The authors declare that they have no competing interests.
+
+The prompts, sanitized parsed judge outputs, analysis scripts, and the current manuscript source are publicly available at \href{https://github.com/niyaobuyaochibl/llm-judge-popularity-debiasing}{GitHub repository \texttt{llm-judge-popularity-debiasing}}. The repository contains the public release prepared for this submission.
+
+Thank you for your consideration.
+
+Sincerely,
+
+\vspace{1em}
+
+Jingjing Fan\\
+Corresponding author
+
+\end{document}
